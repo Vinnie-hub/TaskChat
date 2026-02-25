@@ -3,1269 +3,1901 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TaskChat | Earn Daily from Kenya — Start with KSH 500</title>
+    <title>
+      TaskChat254 | Earn Daily in Kenya — Real Income From Your Phone
+    </title>
     <meta
       name="description"
-      content="Join 10,000+ Kenyans earning daily through TaskChat. Watch videos, complete surveys, chat & refer friends. Start with KSH 500 and get KSH 300 bonus instantly."
+      content="Join 10,000+ Kenyans earning daily. Watch videos, complete AI tasks, chat & refer friends. Start with KSH 500 and get KSH 300 bonus instantly."
     />
-
-    <!-- Favicon SVG inline -->
     <link
       rel="icon"
       type="image/svg+xml"
       href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23f5b800'/%3E%3Ctext x='32' y='46' text-anchor='middle' font-family='Arial Black' font-weight='900' font-size='32' fill='%23000'%3ETC%3C/text%3E%3C/svg%3E"
     />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;0,9..144,900;1,9..144,400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
       rel="stylesheet"
     />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
-
     <style>
       :root {
-        --amber: #f5b800;
-        --amber-light: #fff4c2;
-        --amber-dark: #c48f00;
-        --green: #00b96b;
-        --green-light: #e0faf0;
-        --green-dark: #007d48;
-        --navy: #0f1f3d;
-        --navy-light: #1a3260;
-        --slate: #3d5173;
-        --bg: #f8f6f1;
-        --bg2: #ffffff;
-        --bg3: #f1ede4;
-        --text: #0f1f3d;
-        --text-mid: #3d5173;
-        --text-soft: #7a8fa8;
-        --border: #e5dfd5;
-        --shadow: rgba(15, 31, 61, 0.08);
-        --shadow-md: rgba(15, 31, 61, 0.14);
-        --radius: 16px;
-        --radius-lg: 24px;
-        --radius-xl: 36px;
+        --ink: #111720;
+        --ink-70: rgba(17, 23, 32, 0.7);
+        --ink-40: rgba(17, 23, 32, 0.4);
+        --ink-10: rgba(17, 23, 32, 0.07);
+        --gold: #e8a020;
+        --gold-lt: #fdf3dc;
+        --gold-dk: #c07808;
+        --green: #0fab64;
+        --green-lt: #e4f9ee;
+        --green-dk: #077840;
+        --sky: #1967f3;
+        --sky-lt: #ebf1fe;
+        --sky-dk: #0e44b0;
+        --plum: #7c3aed;
+        --plum-lt: #f2ecff;
+        --rose: #e83558;
+        --rose-lt: #feecf0;
+        --cream: #faf8f3;
+        --cream2: #f2eee4;
+        --cream3: #e9e3d6;
+        --white: #ffffff;
+        --border: rgba(17, 23, 32, 0.1);
+        --serif: "DM Serif Display", Georgia, serif;
+        --sans: "DM Sans", system-ui, sans-serif;
+        --sh1: 0 1px 4px rgba(17, 23, 32, 0.06);
+        --sh2: 0 4px 20px rgba(17, 23, 32, 0.1);
+        --sh3: 0 12px 48px rgba(17, 23, 32, 0.14);
+        --sh4: 0 28px 80px rgba(17, 23, 32, 0.18);
+        --r-sm: 10px;
+        --r: 16px;
+        --r-lg: 24px;
+        --r-xl: 36px;
+        --pad: clamp(20px, 5vw, 80px);
       }
-
-      * {
+      *,
+      *::before,
+      *::after {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
       }
       html {
         scroll-behavior: smooth;
+        font-size: 16px;
       }
-
       body {
-        font-family: "Plus Jakarta Sans", sans-serif;
-        background: var(--bg);
-        color: var(--text);
+        font-family: var(--sans);
+        background: var(--cream);
+        color: var(--ink);
         overflow-x: hidden;
         line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
       }
-
-      h1,
-      h2,
-      h3 {
-        font-family: "Fraunces", serif;
+      img {
+        display: block;
+        max-width: 100%;
       }
-
-      /* ── FLOATING WHATSAPP ── */
-      .wa-float {
-        position: fixed;
-        bottom: 28px;
-        right: 28px;
-        z-index: 9000;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        gap: 10px;
-      }
-
-      .wa-bubble {
-        background: #25d366;
-        color: white;
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 1.7rem;
-        box-shadow: 0 6px 24px rgba(37, 211, 102, 0.5);
+      a {
         text-decoration: none;
-        transition: all 0.3s ease;
-        animation: wa-pulse 3s ease infinite;
+        color: inherit;
       }
 
-      .wa-bubble:hover {
-        transform: scale(1.1);
-        box-shadow: 0 10px 36px rgba(37, 211, 102, 0.65);
-      }
-
-      .wa-tooltip {
-        background: var(--navy);
-        color: white;
-        font-family: "Plus Jakarta Sans", sans-serif;
-        font-size: 0.8rem;
-        font-weight: 600;
-        padding: 8px 14px;
-        border-radius: 30px;
-        white-space: nowrap;
-        opacity: 0;
-        transform: translateX(10px);
-        transition: all 0.3s ease;
-        pointer-events: none;
-      }
-
-      .wa-float:hover .wa-tooltip {
-        opacity: 1;
-        transform: translateX(0);
-      }
-
-      @keyframes wa-pulse {
-        0%,
-        100% {
-          box-shadow: 0 6px 24px rgba(37, 211, 102, 0.5);
-        }
-        50% {
-          box-shadow:
-            0 6px 36px rgba(37, 211, 102, 0.75),
-            0 0 0 12px rgba(37, 211, 102, 0.12);
-        }
-      }
-
-      /* ── NAV (UPDATED for mobile) ── */
+      /* ═══ NAV ═══ */
       nav {
         position: fixed;
-        top: 0;
+        top: 38px;
         left: 0;
         right: 0;
-        z-index: 1000;
-        height: 70px;
-        padding: 0 5%;
+        z-index: 100;
+        height: 64px;
+        padding: 0 var(--pad);
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background: rgba(248, 246, 241, 0.9);
-        backdrop-filter: blur(20px);
+        background: rgba(250, 248, 243, 0.92);
+        backdrop-filter: blur(24px);
         border-bottom: 1px solid var(--border);
         transition: all 0.3s ease;
       }
-
       nav.scrolled {
+        top: 0;
         background: rgba(255, 255, 255, 0.97);
-        box-shadow: 0 4px 20px var(--shadow);
+        box-shadow: var(--sh2);
       }
-
-      .nav-logo {
+      .nav-brand {
         display: flex;
         align-items: center;
         gap: 10px;
-        text-decoration: none;
       }
-
-      .logo-icon {
-        width: 40px;
-        height: 40px;
-        background: var(--amber);
-        border-radius: 11px;
+      .nav-logo-mark {
+        width: 38px;
+        height: 38px;
+        border-radius: 10px;
+        background: var(--ink);
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: "Fraunces", serif;
-        font-weight: 900;
-        font-size: 1rem;
-        color: var(--navy);
-        box-shadow: 0 4px 14px rgba(245, 184, 0, 0.4);
+        position: relative;
+        overflow: hidden;
       }
-
-      .logo-text {
-        font-family: "Fraunces", serif;
-        font-weight: 900;
-        font-size: 1.35rem;
-        color: var(--navy);
-        letter-spacing: -0.5px;
+      .nav-logo-mark::after {
+        content: "TC";
+        font-family: var(--serif);
+        font-size: 0.95rem;
+        font-weight: 700;
+        color: var(--gold);
+        position: relative;
+        z-index: 1;
       }
-
-      .logo-text span {
-        color: var(--amber-dark);
+      .nav-logo-mark::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          135deg,
+          rgba(232, 160, 32, 0.3) 0%,
+          transparent 60%
+        );
       }
-
-      /* HAMBURGER - improved tap target & spacing */
-      .hamburger {
+      .nav-logo-text {
+        font-family: var(--serif);
+        font-size: 1.18rem;
+        color: var(--ink);
+        letter-spacing: -0.3px;
+      }
+      .nav-logo-text span {
+        color: var(--gold-dk);
+      }
+      .burger {
         display: none;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 5px;
-        background: transparent;
+        background: none;
         border: none;
         cursor: pointer;
-        padding: 10px;
-        width: 44px;
-        height: 44px;
-        border-radius: 12px;
-        transition: background 0.2s ease;
+        padding: 8px;
+        width: 40px;
+        height: 40px;
+        border-radius: 9px;
       }
-
-      .hamburger:hover {
-        background: rgba(0, 0, 0, 0.05);
-      }
-
-      .hamburger span {
+      .burger span {
         display: block;
-        width: 26px;
+        width: 22px;
         height: 2px;
-        background: var(--navy);
-        border-radius: 4px;
-        transition: all 0.3s ease;
+        background: var(--ink);
+        border-radius: 2px;
+        transition: all 0.3s;
       }
-
-      .hamburger.active span:nth-child(1) {
+      .burger.open span:nth-child(1) {
         transform: rotate(45deg) translate(5px, 5px);
       }
-      .hamburger.active span:nth-child(2) {
+      .burger.open span:nth-child(2) {
         opacity: 0;
-        transform: translateX(-10px);
+        transform: translateX(-8px);
       }
-      .hamburger.active span:nth-child(3) {
+      .burger.open span:nth-child(3) {
         transform: rotate(-45deg) translate(5px, -5px);
       }
-
-      /* NAV LINKS - mobile first improvements */
       .nav-links {
         display: flex;
         align-items: center;
-        gap: 6px;
+        gap: 2px;
       }
-
       .nav-link {
-        color: var(--text-mid);
-        text-decoration: none;
-        font-size: 0.88rem;
-        font-weight: 600;
-        padding: 8px 14px;
+        font-size: 0.83rem;
+        font-weight: 500;
+        color: var(--ink-70);
+        padding: 7px 13px;
         border-radius: 30px;
-        transition: all 0.2s ease;
+        transition: all 0.2s;
       }
-
       .nav-link:hover {
-        color: var(--navy);
-        background: var(--bg3);
+        color: var(--ink);
+        background: var(--cream2);
       }
-
       .nav-cta {
-        background: var(--amber);
-        color: var(--navy);
+        background: var(--ink);
+        color: var(--white);
+        font-size: 0.83rem;
         font-weight: 700;
-        font-size: 0.88rem;
-        padding: 10px 22px;
+        padding: 9px 20px;
         border-radius: 30px;
-        text-decoration: none;
-        transition: all 0.25s ease;
+        transition: all 0.25s;
         white-space: nowrap;
+        border: 2px solid var(--ink);
       }
-
       .nav-cta:hover {
-        background: var(--amber-dark);
-        color: white;
+        background: var(--gold);
+        border-color: var(--gold);
+        color: var(--ink);
         transform: translateY(-1px);
-        box-shadow: 0 6px 20px rgba(245, 184, 0, 0.4);
+        box-shadow: 0 6px 20px rgba(232, 160, 32, 0.4);
       }
 
-      /* ── HERO ── */
+      /* ═══ HERO ═══ */
       .hero {
         min-height: 100vh;
-        padding: 100px 5% 80px;
+        padding: calc(38px + 64px + 60px) var(--pad) 80px;
         display: flex;
         align-items: center;
+        background: linear-gradient(
+          160deg,
+          #fdfcf7 0%,
+          #f8f4ea 45%,
+          #edf7f3 100%
+        );
         position: relative;
         overflow: hidden;
-        background: linear-gradient(
-          155deg,
-          #fffdf5 0%,
-          #f8f6f1 50%,
-          #f0f7f4 100%
-        );
       }
-
-      .hero-blob1 {
+      .hero-orb1 {
         position: absolute;
-        top: -100px;
-        right: -100px;
-        width: 600px;
-        height: 600px;
+        top: -120px;
+        right: -80px;
+        width: 560px;
+        height: 560px;
+        border-radius: 50%;
         background: radial-gradient(
           circle,
-          rgba(245, 184, 0, 0.12) 0%,
+          rgba(232, 160, 32, 0.14) 0%,
           transparent 65%
         );
         pointer-events: none;
       }
-
-      .hero-blob2 {
+      .hero-orb2 {
         position: absolute;
         bottom: -100px;
-        left: -100px;
-        width: 500px;
-        height: 500px;
+        left: -80px;
+        width: 480px;
+        height: 480px;
+        border-radius: 50%;
         background: radial-gradient(
           circle,
-          rgba(0, 185, 107, 0.1) 0%,
+          rgba(15, 171, 100, 0.1) 0%,
           transparent 65%
         );
         pointer-events: none;
       }
-
-      .hero-inner {
-        max-width: 1200px;
+      .hero-grid {
+        max-width: 1240px;
         margin: 0 auto;
         width: 100%;
         display: grid;
         grid-template-columns: 1.1fr 1fr;
-        gap: 70px;
+        gap: 56px;
         align-items: center;
         position: relative;
         z-index: 2;
       }
 
-      .hero-badge {
+      /* ── HERO EYEBROW — Live Counter ── */
+      .hero-eyebrow {
         display: inline-flex;
-        align-items: center;
-        gap: 8px;
-        background: var(--green-light);
-        border: 1.5px solid rgba(0, 185, 107, 0.3);
-        color: var(--green-dark);
-        padding: 7px 16px;
-        border-radius: 30px;
-        font-size: 0.82rem;
-        font-weight: 700;
-        margin-bottom: 24px;
-        animation: fadeUp 0.7s ease both;
-      }
-
-      .green-dot {
-        width: 7px;
-        height: 7px;
-        background: var(--green);
-        border-radius: 50%;
-        animation: blink 2s infinite;
-      }
-
-      @keyframes blink {
-        0%,
-        100% {
-          opacity: 1;
-        }
-        50% {
-          opacity: 0.3;
-        }
-      }
-
-      .hero h1 {
-        font-size: clamp(2.6rem, 5.5vw, 4.2rem);
-        font-weight: 900;
-        line-height: 1.05;
-        letter-spacing: -1.5px;
-        color: var(--navy);
-        margin-bottom: 22px;
-        animation: fadeUp 0.7s 0.1s ease both;
-      }
-
-      .hero h1 em {
-        font-style: italic;
-        color: var(--amber-dark);
-        position: relative;
-      }
-
-      .hero h1 em::after {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 4px;
-        background: var(--amber);
-        border-radius: 2px;
-        opacity: 0.5;
-      }
-
-      .hero-sub {
-        font-size: 1.05rem;
-        color: var(--text-mid);
-        line-height: 1.75;
-        margin-bottom: 36px;
-        max-width: 460px;
-        animation: fadeUp 0.7s 0.2s ease both;
-      }
-
-      .hero-btns {
-        display: flex;
-        gap: 12px;
-        flex-wrap: wrap;
-        margin-bottom: 40px;
-        animation: fadeUp 0.7s 0.3s ease both;
-      }
-
-      .btn-primary {
-        display: inline-flex;
-        align-items: center;
-        gap: 9px;
-        background: var(--navy);
-        color: white;
-        font-family: "Plus Jakarta Sans", sans-serif;
-        font-weight: 700;
-        font-size: 0.95rem;
-        padding: 15px 30px;
-        border-radius: 50px;
-        text-decoration: none;
-        transition: all 0.3s ease;
-        white-space: nowrap;
-        border: 2px solid var(--navy);
-      }
-
-      .btn-primary:hover {
-        background: var(--amber);
-        border-color: var(--amber);
-        color: var(--navy);
-        transform: translateY(-2px);
-        box-shadow: 0 10px 30px rgba(245, 184, 0, 0.4);
-      }
-
-      .btn-secondary {
-        display: inline-flex;
-        align-items: center;
-        gap: 9px;
-        background: transparent;
-        color: var(--navy);
-        font-weight: 600;
-        font-size: 0.95rem;
-        padding: 15px 28px;
-        border-radius: 50px;
-        text-decoration: none;
-        border: 2px solid var(--border);
-        transition: all 0.25s ease;
-        white-space: nowrap;
-      }
-
-      .btn-secondary:hover {
-        border-color: var(--navy);
-        background: var(--navy);
-        color: white;
-      }
-
-      .trust-items {
-        display: flex;
-        gap: 22px;
-        flex-wrap: wrap;
-        animation: fadeUp 0.7s 0.4s ease both;
-      }
-
-      .trust-item {
-        display: flex;
         align-items: center;
         gap: 7px;
-        font-size: 0.83rem;
-        font-weight: 600;
-        color: var(--text-mid);
-      }
-
-      .trust-item i {
-        color: var(--green);
-      }
-
-      /* ── HERO DASHBOARD CARD ── */
-      .hero-card {
-        animation: fadeRight 0.8s 0.3s ease both;
-      }
-
-      .dashboard-card {
-        background: white;
-        border-radius: var(--radius-xl);
-        padding: 32px;
-        box-shadow:
-          0 30px 80px var(--shadow-md),
-          0 0 0 1px rgba(0, 0, 0, 0.04);
-        position: relative;
-        overflow: hidden;
-      }
-
-      .dashboard-card::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        height: 4px;
-        background: linear-gradient(90deg, var(--amber), var(--green));
-      }
-
-      .dc-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 24px;
-      }
-
-      .dc-title {
-        font-family: "Plus Jakarta Sans", sans-serif;
-        font-size: 0.78rem;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 1.5px;
-        color: var(--text-soft);
-      }
-
-      .live-pill {
-        display: flex;
-        align-items: center;
-        gap: 5px;
-        background: var(--green-light);
-        color: var(--green-dark);
-        padding: 4px 10px;
-        border-radius: 20px;
+        background: var(--green-lt);
+        border: 1.5px solid rgba(15, 171, 100, 0.25);
+        color: var(--green-dk);
+        padding: 6px 14px;
+        border-radius: 30px;
         font-size: 0.74rem;
         font-weight: 700;
+        margin-bottom: 20px;
+        animation: upfade 0.6s ease both;
       }
-
-      .live-dot {
+      .pulsedot {
         width: 6px;
         height: 6px;
         background: var(--green);
         border-radius: 50%;
-        animation: blink 1.5s infinite;
+        animation: pulse 2s infinite;
+        flex-shrink: 0;
       }
 
-      .dc-amount {
-        font-family: "Fraunces", serif;
-        font-size: 3rem;
-        font-weight: 900;
-        color: var(--navy);
-        line-height: 1;
-        letter-spacing: -1.5px;
-        margin-bottom: 4px;
-      }
-
-      .dc-change {
-        display: flex;
-        align-items: center;
-        gap: 5px;
-        font-size: 0.83rem;
-        font-weight: 600;
-        color: var(--green);
-        margin-bottom: 24px;
-      }
-
-      .streams-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 10px;
-        margin-bottom: 20px;
-      }
-
-      .stream-tile {
-        background: var(--bg);
-        border-radius: var(--radius);
-        padding: 14px;
-        border: 1px solid var(--border);
-        transition: all 0.25s ease;
-      }
-
-      .stream-tile:hover {
-        border-color: var(--amber);
-        background: var(--amber-light);
-      }
-
-      .stream-icon {
-        width: 34px;
-        height: 34px;
-        border-radius: 9px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 0.9rem;
-        margin-bottom: 9px;
-      }
-
-      .stream-label {
-        font-size: 0.73rem;
-        color: var(--text-soft);
-        font-weight: 500;
-      }
-      .stream-val {
-        font-family: "Fraunces", serif;
-        font-size: 1.05rem;
-        font-weight: 700;
-        color: var(--navy);
-      }
-
-      .dc-withdraw {
-        width: 100%;
-        background: var(--amber);
-        color: var(--navy);
-        border: none;
-        border-radius: 50px;
-        padding: 14px;
-        font-family: "Plus Jakarta Sans", sans-serif;
-        font-weight: 700;
-        font-size: 0.9rem;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 8px;
-      }
-
-      .dc-withdraw:hover {
-        background: var(--amber-dark);
-        color: white;
-        box-shadow: 0 8px 24px rgba(245, 184, 0, 0.4);
-        transform: translateY(-1px);
-      }
-
-      /* ── TICKER ── */
-      .ticker-wrap {
-        background: var(--navy);
-        padding: 13px 0;
+      .live-count-wrap {
+        position: relative;
+        display: inline-block;
+        min-width: 2.6ch;
+        text-align: right;
         overflow: hidden;
+        height: 1.2em;
+        vertical-align: middle;
+      }
+      .live-count-num {
+        display: inline-block;
+        transition:
+          transform 0.32s cubic-bezier(0.22, 1, 0.36, 1),
+          opacity 0.32s ease;
+        line-height: 1.2;
+      }
+      .live-count-num.flip-out {
+        transform: translateY(-110%);
+        opacity: 0;
+      }
+      .live-count-num.flip-in {
+        transform: translateY(110%);
+        opacity: 0;
+        transition: none;
+      }
+      .live-count-num.flip-settle {
+        transform: translateY(0);
+        opacity: 1;
+        transition:
+          transform 0.32s cubic-bezier(0.22, 1, 0.36, 1),
+          opacity 0.32s ease;
       }
 
-      .ticker-track {
+      @keyframes pulse {
+        0%,
+        100% {
+          opacity: 1;
+          transform: scale(1);
+        }
+        50% {
+          opacity: 0.4;
+          transform: scale(1.4);
+        }
+      }
+      .hero h1 {
+        font-family: var(--serif);
+        font-size: clamp(2.6rem, 5.2vw, 4.6rem);
+        line-height: 1.02;
+        letter-spacing: -0.5px;
+        color: var(--ink);
+        margin-bottom: 18px;
+        animation: upfade 0.6s 0.1s ease both;
+      }
+      .hero h1 em {
+        font-style: italic;
+        color: var(--gold-dk);
+        position: relative;
+      }
+      .hero-desc {
+        font-size: 1.02rem;
+        color: var(--ink-70);
+        line-height: 1.75;
+        margin-bottom: 32px;
+        max-width: 460px;
+        animation: upfade 0.6s 0.18s ease both;
+      }
+      .hero-actions {
         display: flex;
-        white-space: nowrap;
-        animation: ticker 45s linear infinite;
+        gap: 11px;
+        flex-wrap: wrap;
+        margin-bottom: 36px;
+        animation: upfade 0.6s 0.26s ease both;
       }
-
-      .ticker-item {
+      .btn-cta {
         display: inline-flex;
         align-items: center;
-        gap: 9px;
-        padding: 0 36px;
-        font-size: 0.83rem;
-        color: rgba(255, 255, 255, 0.7);
+        gap: 8px;
+        background: var(--ink);
+        color: var(--white);
+        font-family: var(--sans);
+        font-weight: 700;
+        font-size: 0.9rem;
+        padding: 14px 26px;
+        border-radius: 50px;
+        border: 2px solid var(--ink);
+        transition: all 0.3s;
+        white-space: nowrap;
       }
-
-      .ticker-item strong {
-        color: var(--amber);
+      .btn-cta:hover {
+        background: var(--gold);
+        border-color: var(--gold);
+        color: var(--ink);
+        transform: translateY(-2px);
+        box-shadow: 0 10px 30px rgba(232, 160, 32, 0.35);
       }
-      .ticker-item i {
+      .btn-ghost {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: transparent;
+        color: var(--ink);
+        font-weight: 600;
+        font-size: 0.9rem;
+        padding: 14px 24px;
+        border-radius: 50px;
+        border: 2px solid var(--border);
+        transition: all 0.25s;
+        white-space: nowrap;
+      }
+      .btn-ghost:hover {
+        border-color: var(--ink);
+        background: var(--ink);
+        color: var(--white);
+      }
+      .hero-trust {
+        display: flex;
+        gap: 18px;
+        flex-wrap: wrap;
+        animation: upfade 0.6s 0.34s ease both;
+      }
+      .hero-trust-item {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 0.79rem;
+        font-weight: 600;
+        color: var(--ink-70);
+      }
+      .hero-trust-item i {
         color: var(--green);
         font-size: 0.72rem;
       }
 
-      @keyframes ticker {
-        from {
-          transform: translateX(0);
-        }
-        to {
-          transform: translateX(-50%);
-        }
+      /* ═══ HERO DASHBOARD ═══ */
+      .hero-card-wrap {
+        animation: rightfade 0.7s 0.25s ease both;
       }
-
-      /* ── STATS ── */
-      .stats-section {
-        padding: 60px 5%;
-        background: var(--navy);
-      }
-
-      .stats-grid {
-        max-width: 1100px;
-        margin: 0 auto;
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 2px;
-        border-radius: var(--radius-lg);
-        overflow: hidden;
-      }
-
-      .stat-tile {
-        background: rgba(255, 255, 255, 0.05);
-        padding: 38px 28px;
-        text-align: center;
-        border: 1px solid rgba(255, 255, 255, 0.07);
-        transition: all 0.3s ease;
-      }
-
-      .stat-tile:hover {
-        background: rgba(255, 255, 255, 0.09);
-      }
-
-      .stat-num {
-        font-family: "Fraunces", serif;
-        font-size: 2.6rem;
-        font-weight: 900;
-        color: var(--amber);
-        display: block;
-        line-height: 1;
-        margin-bottom: 8px;
-        letter-spacing: -1px;
-      }
-
-      .stat-label {
-        font-size: 0.85rem;
-        color: rgba(255, 255, 255, 0.5);
-        font-weight: 500;
-      }
-
-      /* ── SECTION BASE ── */
-      .section {
-        padding: 100px 5%;
-      }
-      .section-inner {
-        max-width: 1200px;
-        margin: 0 auto;
-      }
-
-      .eyebrow {
-        display: inline-flex;
-        align-items: center;
-        gap: 8px;
-        font-size: 0.78rem;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        color: var(--amber-dark);
-        margin-bottom: 14px;
-      }
-
-      .eyebrow::before {
-        content: "";
-        width: 20px;
-        height: 2px;
-        background: var(--amber);
-        display: block;
-      }
-
-      .section-title {
-        font-size: clamp(2rem, 4vw, 2.9rem);
-        font-weight: 900;
-        line-height: 1.1;
-        letter-spacing: -1px;
-        color: var(--navy);
-        margin-bottom: 14px;
-      }
-
-      .section-sub {
-        font-size: 1rem;
-        color: var(--text-mid);
-        line-height: 1.7;
-        max-width: 500px;
-      }
-
-      /* ── BONUS ── */
-      .bonus-section {
-        padding: 60px 5%;
-        background: var(--bg3);
-      }
-
-      .bonus-inner {
-        max-width: 1100px;
-        margin: 0 auto;
-        background: white;
-        border-radius: var(--radius-xl);
-        padding: 60px 70px;
-        display: grid;
-        grid-template-columns: 1fr auto;
-        align-items: center;
-        gap: 60px;
-        border: 1px solid var(--border);
-        box-shadow: 0 20px 60px var(--shadow);
+      .dash {
+        background: var(--white);
+        border-radius: var(--r-xl);
+        padding: 28px;
+        box-shadow: var(--sh4);
+        border: 1.5px solid rgba(17, 23, 32, 0.06);
         position: relative;
         overflow: hidden;
       }
-
-      .bonus-inner::before {
+      .dash::before {
         content: "";
         position: absolute;
         top: 0;
         left: 0;
         right: 0;
+        height: 3px;
+        background: linear-gradient(90deg, var(--gold), var(--green));
+      }
+      .dash-hd {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      .dash-label {
+        font-size: 0.7rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        color: var(--ink-40);
+      }
+      .live-tag {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        background: var(--green-lt);
+        color: var(--green-dk);
+        padding: 4px 10px;
+        border-radius: 20px;
+        font-size: 0.7rem;
+        font-weight: 700;
+      }
+      .live-d {
+        width: 5px;
         height: 5px;
-        background: linear-gradient(90deg, var(--amber), var(--green));
+        background: var(--green);
+        border-radius: 50%;
+        animation: pulse 1.5s infinite;
+      }
+      .dash-amount {
+        font-family: var(--serif);
+        font-size: 2.85rem;
+        color: var(--ink);
+        line-height: 1;
+        letter-spacing: -1px;
+        margin-bottom: 4px;
+      }
+      .dash-delta {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 0.77rem;
+        font-weight: 600;
+        color: var(--green);
+        margin-bottom: 20px;
+      }
+      .streams {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 9px;
+        margin-bottom: 16px;
+      }
+      .stream-card {
+        background: var(--cream);
+        border: 1px solid var(--border);
+        border-radius: var(--r-sm);
+        padding: 12px;
+        transition: all 0.25s;
+        cursor: pointer;
+      }
+      .stream-card:hover {
+        border-color: var(--gold);
+        background: var(--gold-lt);
+      }
+      .s-icon {
+        width: 30px;
+        height: 30px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.8rem;
+        margin-bottom: 7px;
+      }
+      .s-lbl {
+        font-size: 0.67rem;
+        color: var(--ink-40);
+        font-weight: 500;
+      }
+      .s-val {
+        font-family: var(--serif);
+        font-size: 0.98rem;
+        font-weight: 700;
+        color: var(--ink);
+      }
+      .withdraw-btn {
+        width: 100%;
+        background: var(--gold);
+        color: var(--ink);
+        border: none;
+        border-radius: 50px;
+        padding: 13px;
+        font-family: var(--sans);
+        font-weight: 700;
+        font-size: 0.87rem;
+        cursor: pointer;
+        transition: all 0.3s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+      }
+      .withdraw-btn:hover {
+        background: var(--gold-dk);
+        color: var(--white);
+        box-shadow: 0 8px 24px rgba(232, 160, 32, 0.4);
+        transform: translateY(-1px);
       }
 
-      .bonus-tag {
+      @keyframes upfade {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: none;
+        }
+      }
+      @keyframes rightfade {
+        from {
+          opacity: 0;
+          transform: translateX(24px);
+        }
+        to {
+          opacity: 1;
+          transform: none;
+        }
+      }
+      .reveal {
+        opacity: 0;
+        transform: translateY(18px);
+        transition:
+          opacity 0.55s ease,
+          transform 0.55s ease;
+      }
+      .reveal.in {
+        opacity: 1;
+        transform: none;
+      }
+
+      /* ═══ TICKER ═══ */
+      .ticker {
+        background: var(--ink);
+        padding: 0;
+        overflow: hidden;
+        position: relative;
+        border-top: 2px solid rgba(232, 160, 32, 0.3);
+        border-bottom: 2px solid rgba(232, 160, 32, 0.3);
+      }
+      .ticker::before,
+      .ticker::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 80px;
+        z-index: 2;
+        pointer-events: none;
+      }
+      .ticker::before {
+        left: 0;
+        background: linear-gradient(to right, var(--ink), transparent);
+      }
+      .ticker::after {
+        right: 0;
+        background: linear-gradient(to left, var(--ink), transparent);
+      }
+
+      .ticker-inner {
+        display: flex;
+        overflow: hidden;
+        height: 38px;
+        align-items: center;
+      }
+      .ticker-track {
+        display: flex;
+        white-space: nowrap;
+        will-change: transform;
+      }
+      .ticker-track:hover {
+        animation-play-state: paused !important;
+      }
+      .ticker-item {
         display: inline-flex;
         align-items: center;
         gap: 7px;
-        background: var(--amber-light);
-        border: 1.5px solid rgba(245, 184, 0, 0.5);
-        color: var(--amber-dark);
-        padding: 6px 15px;
-        border-radius: 30px;
-        font-size: 0.78rem;
+        padding: 0 28px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.75);
+        white-space: nowrap;
+        flex-shrink: 0;
+      }
+      .ticker-item .ti-dot {
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        flex-shrink: 0;
+      }
+      .ticker-item.type-earn .ti-dot {
+        background: var(--gold);
+      }
+      .ticker-item.type-withdraw .ti-dot {
+        background: var(--green);
+      }
+      .ticker-item.type-referral .ti-dot {
+        background: var(--sky);
+      }
+      .ticker-item .ti-name {
+        color: var(--white);
         font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        margin-bottom: 14px;
       }
-
-      .bonus-heading {
-        font-size: 2.5rem;
-        font-weight: 900;
-        letter-spacing: -1px;
-        line-height: 1.1;
-        color: var(--navy);
-        margin-bottom: 12px;
+      .ticker-item .ti-amount {
+        color: var(--gold);
+        font-weight: 700;
       }
-
-      .bonus-sub {
-        color: var(--text-mid);
-        font-size: 0.98rem;
-        line-height: 1.65;
-        max-width: 420px;
+      .ticker-item.type-withdraw .ti-amount {
+        color: var(--green);
       }
-
-      .bonus-cta {
-        text-align: center;
+      .ticker-item.type-referral .ti-amount {
+        color: #7eb3ff;
+      }
+      .ticker-sep {
+        display: inline-flex;
+        align-items: center;
+        padding: 0 8px;
+        color: rgba(255, 255, 255, 0.15);
+        font-size: 0.6rem;
         flex-shrink: 0;
       }
 
-      .bonus-badge {
-        width: 150px;
-        height: 150px;
-        background: linear-gradient(135deg, var(--amber), var(--amber-dark));
-        border-radius: 50%;
-        display: flex;
-        flex-direction: column;
+      /* ═══ SECTION PRIMITIVES ═══ */
+      .section {
+        padding: 90px var(--pad);
+      }
+      .inner {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      .eyebrow {
+        display: inline-flex;
         align-items: center;
-        justify-content: center;
-        margin: 0 auto 20px;
-        box-shadow: 0 12px 40px rgba(245, 184, 0, 0.4);
-      }
-
-      .bonus-badge span:first-child {
-        font-size: 0.85rem;
+        gap: 7px;
+        font-size: 0.69rem;
         font-weight: 700;
-        color: var(--navy);
-        opacity: 0.8;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: var(--gold-dk);
+        margin-bottom: 10px;
       }
-      .bonus-badge .big {
-        font-family: "Fraunces", serif;
-        font-size: 2.8rem;
-        font-weight: 900;
-        color: var(--navy);
-        line-height: 1;
+      .eyebrow::before {
+        content: "";
+        width: 16px;
+        height: 2px;
+        background: var(--gold);
+        border-radius: 1px;
       }
-      .bonus-badge .small {
-        font-size: 0.75rem;
-        font-weight: 600;
-        color: var(--navy);
-        opacity: 0.7;
+      .sec-title {
+        font-family: var(--serif);
+        font-size: clamp(1.85rem, 3.8vw, 2.8rem);
+        line-height: 1.08;
+        letter-spacing: -0.3px;
+        color: var(--ink);
+        margin-bottom: 12px;
+      }
+      .sec-sub {
+        font-size: 0.96rem;
+        color: var(--ink-70);
+        line-height: 1.72;
+        max-width: 480px;
       }
 
-      /* ── METHODS ── */
-      .methods-bg {
-        background: white;
-      }
-
-      .methods-header {
+      /* ═══ EARNING METHODS ═══ */
+      .methods-hd {
         display: flex;
         justify-content: space-between;
         align-items: flex-end;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 18px;
       }
-
       .methods-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 18px;
+        gap: 16px;
       }
-
-      .method-card {
-        background: var(--bg);
+      .mc {
+        background: var(--white);
         border: 1.5px solid var(--border);
-        border-radius: var(--radius-lg);
-        padding: 28px 24px;
-        transition: all 0.35s ease;
-        position: relative;
-        overflow: hidden;
+        border-radius: var(--r-lg);
+        padding: 24px 20px;
+        transition: all 0.35s;
         cursor: pointer;
-        text-decoration: none;
         display: flex;
         flex-direction: column;
+        text-decoration: none;
         color: inherit;
+        position: relative;
+        overflow: hidden;
       }
-
-      .method-card:hover {
+      .mc:hover {
         transform: translateY(-6px);
-        box-shadow: 0 20px 50px var(--shadow-md);
+        box-shadow: var(--sh3);
         border-color: transparent;
       }
-
-      .method-card.c-gold:hover {
-        background: #fffdf2;
-        border-color: rgba(245, 184, 0, 0.3);
+      .mc.gold:hover {
+        background: #fffef5;
+        box-shadow: 0 12px 48px rgba(232, 160, 32, 0.22);
       }
-      .method-card.c-green:hover {
-        background: #f0fdf7;
-        border-color: rgba(0, 185, 107, 0.3);
+      .mc.green:hover {
+        background: #f4fdf9;
+        box-shadow: 0 12px 48px rgba(15, 171, 100, 0.18);
       }
-      .method-card.c-blue:hover {
-        background: #f0f5ff;
-        border-color: rgba(77, 141, 255, 0.3);
+      .mc.sky:hover {
+        background: #f4f7ff;
+        box-shadow: 0 12px 48px rgba(25, 103, 243, 0.18);
       }
-      .method-card.c-purple:hover {
-        background: #f8f0ff;
-        border-color: rgba(139, 92, 246, 0.3);
+      .mc.plum:hover {
+        background: #faf6ff;
+        box-shadow: 0 12px 48px rgba(124, 58, 237, 0.18);
       }
-      .method-card.c-pink:hover {
-        background: #fff0f7;
-        border-color: rgba(236, 72, 153, 0.3);
+      .mc.rose:hover {
+        background: #fff5f7;
+        box-shadow: 0 12px 48px rgba(232, 53, 88, 0.18);
       }
-
-      .method-img {
-        width: 100%;
-        height: 140px;
-        border-radius: var(--radius);
-        margin-bottom: 18px;
-        object-fit: cover;
-        background: var(--bg3);
+      .mc.teal:hover {
+        background: #f3fdfd;
+        box-shadow: 0 12px 48px rgba(14, 165, 175, 0.18);
+      }
+      .mc-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 14px;
+      }
+      .mc-icon {
+        width: 44px;
+        height: 44px;
+        border-radius: 12px;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 3rem;
-        overflow: hidden;
-        position: relative;
+        font-size: 1.2rem;
+      }
+      .gold .mc-icon {
+        background: rgba(232, 160, 32, 0.1);
+        color: var(--gold-dk);
+      }
+      .green .mc-icon {
+        background: rgba(15, 171, 100, 0.1);
+        color: var(--green-dk);
+      }
+      .sky .mc-icon {
+        background: rgba(25, 103, 243, 0.1);
+        color: var(--sky-dk);
+      }
+      .plum .mc-icon {
+        background: rgba(124, 58, 237, 0.1);
+        color: var(--plum);
+      }
+      .rose .mc-icon {
+        background: rgba(232, 53, 88, 0.1);
+        color: var(--rose);
+      }
+      .teal .mc-icon {
+        background: rgba(14, 165, 175, 0.1);
+        color: #0e6774;
+      }
+      .badge-new {
+        background: var(--green-lt);
+        color: var(--green-dk);
+        font-size: 0.62rem;
+        font-weight: 700;
+        padding: 3px 8px;
+        border-radius: 20px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+      .badge-hot {
+        background: var(--rose-lt);
+        color: var(--rose);
+        font-size: 0.62rem;
+        font-weight: 700;
+        padding: 3px 8px;
+        border-radius: 20px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+      .badge-top {
+        background: var(--gold-lt);
+        color: var(--gold-dk);
+        font-size: 0.62rem;
+        font-weight: 700;
+        padding: 3px 8px;
+        border-radius: 20px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+      .mc-name {
+        font-family: var(--serif);
+        font-size: 1.08rem;
+        color: var(--ink);
+        margin-bottom: 7px;
+      }
+      .mc-desc {
+        font-size: 0.82rem;
+        color: var(--ink-70);
+        line-height: 1.6;
+        flex-grow: 1;
+        margin-bottom: 16px;
+      }
+      .mc-ft {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 12px;
+        border-top: 1px solid var(--border);
+      }
+      .earn-lbl {
+        font-size: 0.7rem;
+        color: var(--ink-40);
+        font-weight: 500;
+      }
+      .earn-chip {
+        font-weight: 700;
+        font-size: 0.79rem;
+        padding: 3px 11px;
+        border-radius: 20px;
+      }
+      .gold .earn-chip {
+        background: var(--gold-lt);
+        color: var(--gold-dk);
+      }
+      .green .earn-chip {
+        background: var(--green-lt);
+        color: var(--green-dk);
+      }
+      .sky .earn-chip {
+        background: var(--sky-lt);
+        color: var(--sky-dk);
+      }
+      .plum .earn-chip {
+        background: var(--plum-lt);
+        color: var(--plum);
+      }
+      .rose .earn-chip {
+        background: var(--rose-lt);
+        color: var(--rose);
+      }
+      .teal .earn-chip {
+        background: rgba(14, 165, 175, 0.1);
+        color: #0e6774;
       }
 
-      .method-icon-wrap {
-        width: 48px;
-        height: 48px;
+      /* ═══ BONUS BANNER ═══ */
+      .bonus-wrap {
+        padding: 0 var(--pad) 70px;
+        background: var(--white);
+      }
+      .bonus-card {
+        max-width: 1100px;
+        margin: 0 auto;
+        background: var(--gold-lt);
+        border: 2px solid rgba(232, 160, 32, 0.35);
+        border-radius: var(--r-xl);
+        padding: 52px 60px;
+        display: grid;
+        grid-template-columns: 1fr auto;
+        align-items: center;
+        gap: 50px;
+        position: relative;
+        overflow: hidden;
+      }
+      .bonus-card::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 4px;
+        background: linear-gradient(90deg, var(--gold), var(--green));
+      }
+      .bonus-tag {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        background: rgba(232, 160, 32, 0.25);
+        border: 1.5px solid rgba(232, 160, 32, 0.5);
+        color: var(--gold-dk);
+        padding: 5px 13px;
+        border-radius: 30px;
+        font-size: 0.7rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 12px;
+      }
+      .bonus-h {
+        font-family: var(--serif);
+        font-size: 2.2rem;
+        letter-spacing: -0.3px;
+        line-height: 1.08;
+        color: var(--ink);
+        margin-bottom: 11px;
+      }
+      .bonus-p {
+        color: var(--ink-70);
+        font-size: 0.92rem;
+        line-height: 1.65;
+        max-width: 400px;
+      }
+      .bonus-circle {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, var(--gold), var(--gold-dk));
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 12px 40px rgba(232, 160, 32, 0.45);
+        flex-shrink: 0;
+        margin: 0 auto 18px;
+      }
+      .bonus-circle span {
+        font-size: 0.78rem;
+        font-weight: 700;
+        color: rgba(0, 0, 0, 0.6);
+      }
+      .bonus-circle .big {
+        font-family: var(--serif);
+        font-size: 2.6rem;
+        color: var(--ink);
+        line-height: 1;
+      }
+
+      /* ═══ AI TASKS ═══ */
+      .ai-section {
+        background: var(--ink);
+        padding: 90px var(--pad);
+        position: relative;
+        overflow: hidden;
+      }
+      .ai-glow {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 900px;
+        height: 500px;
+        background: radial-gradient(
+          ellipse,
+          rgba(25, 103, 243, 0.18) 0%,
+          transparent 70%
+        );
+        pointer-events: none;
+      }
+      .ai-grid {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 64px;
+        align-items: center;
+        position: relative;
+        z-index: 2;
+      }
+      .ai-copy .eyebrow {
+        color: rgba(255, 255, 255, 0.5);
+      }
+      .ai-copy .eyebrow::before {
+        background: rgba(255, 255, 255, 0.3);
+      }
+      .ai-copy .sec-title {
+        color: var(--white);
+      }
+      .ai-copy .sec-sub {
+        color: rgba(255, 255, 255, 0.55);
+        margin-bottom: 28px;
+      }
+      .ai-task-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .ai-task {
+        background: rgba(255, 255, 255, 0.05);
+        border: 1.5px solid rgba(255, 255, 255, 0.08);
+        border-radius: var(--r);
+        padding: 14px 16px;
+        display: flex;
+        align-items: center;
+        gap: 13px;
+        transition: all 0.3s;
+        cursor: pointer;
+      }
+      .ai-task:hover {
+        background: rgba(25, 103, 243, 0.25);
+        border-color: rgba(25, 103, 243, 0.5);
+        transform: translateX(5px);
+      }
+      .ai-task-ic {
+        width: 38px;
+        height: 38px;
+        border-radius: 10px;
+        background: var(--sky-lt);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.95rem;
+        color: var(--sky-dk);
+        flex-shrink: 0;
+      }
+      .ai-task-info {
+        flex: 1;
+      }
+      .ai-task-name {
+        font-weight: 700;
+        font-size: 0.87rem;
+        color: var(--white);
+        margin-bottom: 2px;
+      }
+      .ai-task-desc {
+        font-size: 0.74rem;
+        color: rgba(255, 255, 255, 0.45);
+        line-height: 1.4;
+      }
+      .ai-task-earn {
+        font-weight: 700;
+        font-size: 0.85rem;
+        color: var(--gold);
+        white-space: nowrap;
+      }
+      .ai-panel {
+        background: rgba(255, 255, 255, 0.04);
+        border: 1.5px solid rgba(255, 255, 255, 0.09);
+        border-radius: var(--r-lg);
+        padding: 26px;
+      }
+      .ai-panel-hd {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 18px;
+      }
+      .ai-panel-title {
+        font-family: var(--serif);
+        color: var(--white);
+        font-size: 1.05rem;
+      }
+      .ai-level {
+        background: rgba(25, 103, 243, 0.3);
+        border-radius: 20px;
+        padding: 4px 11px;
+        font-size: 0.72rem;
+        font-weight: 700;
+        color: rgba(200, 220, 255, 0.9);
+      }
+      .prog-list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+      .prog-item {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+      .prog-hd {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.74rem;
+        color: rgba(255, 255, 255, 0.5);
+        font-weight: 600;
+      }
+      .prog-hd span:last-child {
+        color: var(--gold);
+      }
+      .prog-bar {
+        height: 5px;
+        background: rgba(255, 255, 255, 0.07);
+        border-radius: 3px;
+        overflow: hidden;
+      }
+      .prog-fill {
+        height: 100%;
+        border-radius: 3px;
+        transition: width 1.5s ease;
+      }
+      .ai-total-box {
+        margin-top: 18px;
+        background: rgba(255, 255, 255, 0.04);
+        border: 1.5px solid rgba(255, 255, 255, 0.09);
+        border-radius: var(--r-sm);
+        padding: 14px;
+      }
+      .ai-total-lbl {
+        font-size: 0.7rem;
+        color: rgba(255, 255, 255, 0.35);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 5px;
+      }
+      .ai-total-num {
+        font-family: var(--serif);
+        font-size: 2.1rem;
+        color: var(--gold);
+      }
+      .ai-total-sub {
+        font-size: 0.73rem;
+        color: rgba(255, 255, 255, 0.35);
+        margin-top: 3px;
+      }
+      .ai-total-sub i {
+        color: var(--green);
+        margin-right: 4px;
+      }
+
+      /* ═══ OPPORTUNITIES ═══ */
+      .opps-section {
+        background: var(--cream2);
+        padding: 90px var(--pad);
+      }
+      .opps-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 22px;
+        margin-top: 46px;
+      }
+      .opp-card {
+        background: var(--white);
+        border-radius: var(--r-lg);
+        overflow: hidden;
+        box-shadow: var(--sh1);
+        border: 1.5px solid var(--border);
+        transition: all 0.3s;
+      }
+      .opp-card:hover {
+        box-shadow: var(--sh3);
+        transform: translateY(-4px);
+      }
+      .opp-card-hd {
+        padding: 26px 26px 0;
+        display: flex;
+        align-items: flex-start;
+        gap: 13px;
+      }
+      .opp-ic {
+        width: 50px;
+        height: 50px;
         border-radius: 13px;
         display: flex;
         align-items: center;
         justify-content: center;
         font-size: 1.3rem;
+        flex-shrink: 0;
+      }
+      .opp-ic-loan {
+        background: var(--sky-lt);
+        color: var(--sky-dk);
+      }
+      .opp-ic-schol {
+        background: var(--plum-lt);
+        color: var(--plum);
+      }
+      .opp-card-title h3 {
+        font-family: var(--serif);
+        font-size: 1.15rem;
+        color: var(--ink);
+        margin-bottom: 4px;
+      }
+      .opp-pill {
+        display: inline-block;
+        font-size: 0.64rem;
+        font-weight: 700;
+        padding: 3px 9px;
+        border-radius: 20px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+      .pill-loan {
+        background: var(--sky-lt);
+        color: var(--sky-dk);
+      }
+      .pill-schol {
+        background: var(--plum-lt);
+        color: var(--plum);
+      }
+      .opp-body {
+        padding: 16px 26px 24px;
+      }
+      .opp-desc {
+        font-size: 0.85rem;
+        color: var(--ink-70);
+        line-height: 1.65;
         margin-bottom: 16px;
       }
-
-      .c-gold .method-icon-wrap {
-        background: rgba(245, 184, 0, 0.12);
-        color: var(--amber-dark);
-      }
-      .c-green .method-icon-wrap {
-        background: rgba(0, 185, 107, 0.12);
-        color: var(--green-dark);
-      }
-      .c-blue .method-icon-wrap {
-        background: rgba(77, 141, 255, 0.12);
-        color: #3d7dff;
-      }
-      .c-purple .method-icon-wrap {
-        background: rgba(139, 92, 246, 0.12);
-        color: #7c3aed;
-      }
-      .c-pink .method-icon-wrap {
-        background: rgba(236, 72, 153, 0.12);
-        color: #be185d;
-      }
-
-      .method-name {
-        font-family: "Fraunces", serif;
-        font-size: 1.15rem;
-        font-weight: 700;
-        color: var(--navy);
-        margin-bottom: 8px;
-      }
-      .method-desc {
-        font-size: 0.87rem;
-        color: var(--text-mid);
-        line-height: 1.65;
-        flex-grow: 1;
+      .opp-features {
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
         margin-bottom: 18px;
       }
-
-      .method-footer {
+      .opp-feat {
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        padding-top: 14px;
-        border-top: 1.5px solid var(--border);
+        gap: 8px;
+        font-size: 0.81rem;
+        color: var(--ink-70);
       }
-
-      .earn-label {
-        font-size: 0.77rem;
-        color: var(--text-soft);
-        font-weight: 500;
+      .opp-feat i {
+        color: var(--green);
+        font-size: 0.7rem;
+        flex-shrink: 0;
       }
-
-      .earn-chip {
+      .opp-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 7px;
+        font-size: 0.82rem;
         font-weight: 700;
-        font-size: 0.85rem;
-        padding: 4px 12px;
-        border-radius: 20px;
+        padding: 10px 20px;
+        border-radius: 30px;
+        transition: all 0.25s;
+      }
+      .opp-btn-loan {
+        background: var(--sky-lt);
+        color: var(--sky-dk);
+      }
+      .opp-btn-loan:hover {
+        background: var(--sky-dk);
+        color: var(--white);
+      }
+      .opp-btn-schol {
+        background: var(--plum-lt);
+        color: var(--plum);
+      }
+      .opp-btn-schol:hover {
+        background: var(--plum);
+        color: var(--white);
+      }
+      .disclaimer {
+        margin-top: 22px;
+        background: var(--gold-lt);
+        border: 1.5px solid rgba(232, 160, 32, 0.3);
+        border-radius: var(--r-sm);
+        padding: 13px 16px;
+        display: flex;
+        align-items: flex-start;
+        gap: 9px;
+        font-size: 0.74rem;
+        color: var(--ink-70);
+        line-height: 1.55;
+      }
+      .disclaimer i {
+        color: var(--gold-dk);
+        margin-top: 1px;
+        flex-shrink: 0;
+      }
+      .disclaimer strong {
+        color: var(--gold-dk);
       }
 
-      .c-gold .earn-chip {
-        background: var(--amber-light);
-        color: var(--amber-dark);
+      /* ═══ REFERRAL ═══ */
+      .ref-section {
+        background: var(--white);
+        padding: 90px var(--pad);
       }
-      .c-green .earn-chip {
-        background: var(--green-light);
-        color: var(--green-dark);
+      .ref-grid {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 64px;
+        align-items: center;
       }
-      .c-blue .earn-chip {
-        background: rgba(77, 141, 255, 0.12);
-        color: #3d7dff;
+      .ref-tiers {
+        display: flex;
+        flex-direction: column;
+        gap: 11px;
+        margin: 24px 0 28px;
       }
-      .c-purple .earn-chip {
-        background: rgba(139, 92, 246, 0.12);
-        color: #7c3aed;
+      .ref-tier {
+        background: var(--cream);
+        border: 1.5px solid var(--border);
+        border-radius: var(--r);
+        padding: 14px 18px;
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        transition: all 0.3s;
       }
-      .c-pink .earn-chip {
-        background: rgba(236, 72, 153, 0.12);
-        color: #be185d;
+      .ref-tier:hover {
+        border-color: var(--gold);
+        box-shadow: var(--sh1);
+        transform: translateX(4px);
       }
-
-      /* Image placeholders using CSS art */
-      .img-chat {
-        background: linear-gradient(135deg, #fff4c2 0%, #fde68a 100%);
+      .t-badge {
+        width: 42px;
+        height: 42px;
+        border-radius: 11px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.05rem;
+        flex-shrink: 0;
       }
-      .img-video {
-        background: linear-gradient(135deg, #e0faf0 0%, #a7f3d0 100%);
+      .t-bronze {
+        background: rgba(164, 96, 40, 0.1);
+        color: #a46028;
       }
-      .img-survey {
-        background: linear-gradient(135deg, #eff6ff 0%, #bfdbfe 100%);
+      .t-silver {
+        background: rgba(100, 116, 139, 0.1);
+        color: #4b5563;
       }
-      .img-ads {
-        background: linear-gradient(135deg, #f5f3ff 0%, #ddd6fe 100%);
+      .t-gold {
+        background: rgba(232, 160, 32, 0.12);
+        color: var(--gold-dk);
       }
-      .img-bonus {
-        background: linear-gradient(135deg, #fce7f3 0%, #fbcfe8 100%);
+      .t-gem {
+        background: rgba(25, 103, 243, 0.1);
+        color: var(--sky-dk);
       }
-
-      .img-inner-icon {
-        font-size: 3.5rem;
-        filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15));
+      .t-info {
+        flex: 1;
       }
-
-      /* Real image from unsplash via picsum style */
-      .method-img img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        position: absolute;
-        top: 0;
-        left: 0;
+      .t-name {
+        font-weight: 700;
+        font-size: 0.87rem;
+        color: var(--ink);
+        margin-bottom: 2px;
       }
-
-      /* ── HOW IT WORKS ── */
-      .how-section {
-        background: var(--bg3);
+      .t-desc {
+        font-size: 0.74rem;
+        color: var(--ink-40);
       }
-
-      .how-grid {
+      .t-earn {
+        font-family: var(--serif);
+        font-weight: 700;
+        font-size: 1rem;
+        color: var(--ink);
+      }
+      .ref-visual {
+        background: var(--cream);
+        border: 1.5px solid var(--border);
+        border-radius: var(--r-lg);
+        padding: 26px;
+        box-shadow: var(--sh2);
+      }
+      .rv-hd {
+        font-family: var(--serif);
+        font-size: 1.1rem;
+        color: var(--ink);
+        margin-bottom: 18px;
+      }
+      .rv-tree {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .rv-you {
+        background: var(--ink);
+        color: var(--white);
+        border-radius: 50px;
+        padding: 9px 22px;
+        font-size: 0.82rem;
+        font-weight: 700;
+        margin-bottom: 12px;
+      }
+      .rv-vline {
+        width: 2px;
+        height: 16px;
+        background: var(--border);
+      }
+      .rv-kids {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 40px;
-        margin-top: 60px;
+        gap: 9px;
+        width: 100%;
+        margin-top: 0;
+      }
+      .rv-kid {
+        background: var(--gold-lt);
+        border: 1.5px solid rgba(232, 160, 32, 0.3);
+        border-radius: 11px;
+        padding: 10px;
+        text-align: center;
+      }
+      .rv-kid-nm {
+        font-size: 0.72rem;
+        font-weight: 700;
+        color: var(--ink);
+        margin-bottom: 2px;
+      }
+      .rv-kid-earn {
+        font-size: 0.7rem;
+        color: var(--gold-dk);
+        font-weight: 600;
+      }
+      .rv-box {
+        background: var(--green-lt);
+        border: 1.5px solid rgba(15, 171, 100, 0.25);
+        border-radius: var(--r-sm);
+        padding: 13px;
+        text-align: center;
+        margin-top: 14px;
+      }
+      .rv-box-l {
+        font-size: 0.73rem;
+        color: var(--green-dk);
+        font-weight: 600;
+        margin-bottom: 3px;
+      }
+      .rv-box-n {
+        font-family: var(--serif);
+        font-size: 1.7rem;
+        color: var(--ink);
+      }
+      .rv-tip {
+        margin-top: 12px;
+        background: var(--sky-lt);
+        border-radius: 10px;
+        padding: 12px;
+        font-size: 0.79rem;
+        color: var(--sky-dk);
+        font-weight: 600;
+        text-align: center;
+      }
+      .rv-tip i {
+        margin-right: 5px;
+      }
+
+      /* ═══ HOW IT WORKS ═══ */
+      .how-section {
+        background: var(--cream2);
+        padding: 90px var(--pad);
+      }
+      .how-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 24px;
+        margin-top: 50px;
         position: relative;
       }
-
-      .how-connector {
+      .how-line {
         position: absolute;
-        top: 32px;
-        left: calc(16.66% + 40px);
-        right: calc(16.66% + 40px);
+        top: 30px;
+        left: calc(12.5% + 24px);
+        right: calc(12.5% + 24px);
         height: 1.5px;
-        background: linear-gradient(90deg, var(--amber), var(--green));
-        opacity: 0.4;
+        background: linear-gradient(90deg, var(--gold), var(--green));
+        opacity: 0.3;
       }
-
       .how-step {
         text-align: center;
       }
-
-      .step-circle {
-        width: 64px;
-        height: 64px;
+      .how-num {
+        width: 60px;
+        height: 60px;
         border-radius: 50%;
-        background: white;
-        border: 2.5px solid var(--amber);
+        background: var(--white);
+        border: 2px solid var(--gold);
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: "Fraunces", serif;
-        font-weight: 900;
-        font-size: 1.4rem;
-        color: var(--navy);
-        margin: 0 auto 22px;
+        font-family: var(--serif);
+        font-size: 1.3rem;
+        color: var(--ink);
+        margin: 0 auto 16px;
         position: relative;
         z-index: 2;
-        box-shadow: 0 8px 24px rgba(245, 184, 0, 0.25);
+        box-shadow: 0 6px 20px rgba(232, 160, 32, 0.2);
       }
-
       .how-step h3 {
-        font-size: 1.15rem;
+        font-size: 0.95rem;
         font-weight: 700;
-        color: var(--navy);
-        margin-bottom: 10px;
+        color: var(--ink);
+        margin-bottom: 8px;
       }
-
       .how-step p {
-        font-size: 0.88rem;
-        color: var(--text-mid);
-        line-height: 1.65;
-        max-width: 240px;
+        font-size: 0.81rem;
+        color: var(--ink-70);
+        line-height: 1.6;
+        max-width: 190px;
         margin: 0 auto;
       }
 
-      /* ── TESTIMONIALS ── */
-      .tgrid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 22px;
-        margin-top: 55px;
+      /* ═══ LIVE ACTIVITY ═══ */
+      .activity-section {
+        background: var(--white);
+        padding: 70px var(--pad);
       }
-
-      .tcard {
-        background: white;
-        border: 1.5px solid var(--border);
-        border-radius: var(--radius-lg);
-        padding: 28px;
-        transition: all 0.3s ease;
+      .act-inner {
+        max-width: 860px;
+        margin: 0 auto;
+        text-align: center;
+      }
+      .act-feed {
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+        margin-top: 30px;
+        max-height: 380px;
+        overflow: hidden;
         position: relative;
       }
-
-      .tcard:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 20px 50px var(--shadow-md);
-        border-color: var(--amber);
+      .act-feed::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 90px;
+        background: linear-gradient(transparent, var(--white));
+        pointer-events: none;
       }
-
-      .tcard-stars {
-        color: var(--amber);
-        font-size: 0.85rem;
-        letter-spacing: 2px;
-        margin-bottom: 14px;
-      }
-
-      .tcard-quote {
-        font-size: 1.05rem;
-        color: var(--text-mid);
-        line-height: 1.7;
-        margin-bottom: 22px;
-        font-style: italic;
-      }
-
-      .tcard-quote::before {
-        content: '"';
-        font-family: "Fraunces", serif;
-        font-size: 3rem;
-        color: var(--amber);
-        opacity: 0.4;
-        line-height: 0;
-        vertical-align: -1rem;
-        margin-right: 4px;
-      }
-
-      .tcard-author {
+      .act-item {
         display: flex;
         align-items: center;
-        gap: 12px;
+        gap: 11px;
+        padding: 12px 15px;
+        background: var(--cream);
+        border-radius: var(--r-sm);
+        border: 1px solid var(--border);
+        animation: upfade 0.4s ease;
       }
-
-      .author-av {
-        width: 44px;
-        height: 44px;
+      .act-av {
+        width: 34px;
+        height: 34px;
         border-radius: 50%;
-        background: linear-gradient(135deg, var(--amber), var(--green));
+        background: linear-gradient(135deg, var(--gold), var(--green));
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: "Fraunces", serif;
+        font-size: 0.75rem;
         font-weight: 700;
-        font-size: 0.95rem;
-        color: white;
+        color: var(--white);
         flex-shrink: 0;
       }
-
-      .author-name {
+      .act-txt {
+        flex: 1;
+        font-size: 0.8rem;
+        color: var(--ink-70);
+        text-align: left;
+      }
+      .act-txt strong {
+        color: var(--ink);
+      }
+      .act-amt {
         font-weight: 700;
-        font-size: 0.9rem;
-        color: var(--navy);
+        font-size: 0.85rem;
+        color: var(--green-dk);
       }
-      .author-loc {
-        font-size: 0.78rem;
-        color: var(--text-soft);
-        margin-top: 2px;
+      .act-time {
+        font-size: 0.68rem;
+        color: var(--ink-40);
+        white-space: nowrap;
       }
 
-      .tcard-earned {
+      /* ═══ TESTIMONIALS ═══ */
+      .testi-section {
+        background: var(--cream2);
+        padding: 90px var(--pad);
+      }
+      .t-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        margin-top: 48px;
+      }
+      .t-card {
+        background: var(--white);
+        border: 1.5px solid var(--border);
+        border-radius: var(--r-lg);
+        padding: 26px;
+        transition: all 0.3s;
+        position: relative;
+      }
+      .t-card:hover {
+        transform: translateY(-4px);
+        box-shadow: var(--sh3);
+        border-color: var(--gold);
+      }
+      .t-stars {
+        color: var(--gold);
+        font-size: 0.8rem;
+        letter-spacing: 2px;
+        margin-bottom: 11px;
+      }
+      .t-earned {
         position: absolute;
         top: 18px;
         right: 18px;
-        background: var(--green-light);
-        border: 1.5px solid rgba(0, 185, 107, 0.3);
-        color: var(--green-dark);
-        padding: 4px 10px;
+        background: var(--green-lt);
+        border: 1.5px solid rgba(15, 171, 100, 0.3);
+        color: var(--green-dk);
+        padding: 3px 9px;
         border-radius: 20px;
-        font-size: 0.75rem;
+        font-size: 0.68rem;
         font-weight: 700;
       }
-
-      /* ── FAQ ── */
-      .faq-wrap {
-        max-width: 720px;
-        margin: 55px auto 0;
+      .t-mock-payment {
+        background: var(--cream2);
+        border-radius: 8px;
+        padding: 9px 12px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 13px;
+        border: 1px solid var(--border);
+      }
+      .t-mock-icon {
+        font-size: 1.1rem;
+      }
+      .t-mock-info {
+        font-size: 0.72rem;
+        color: var(--ink-70);
+      }
+      .t-mock-info strong {
+        display: block;
+        font-size: 0.78rem;
+        color: var(--ink);
+      }
+      .t-quote {
+        font-size: 0.95rem;
+        color: var(--ink-70);
+        line-height: 1.7;
+        margin-bottom: 18px;
+        font-style: italic;
+      }
+      .t-quote::before {
+        content: "\201C";
+        font-family: var(--serif);
+        font-size: 2.8rem;
+        color: var(--gold);
+        opacity: 0.4;
+        line-height: 0;
+        vertical-align: -0.9rem;
+        margin-right: 4px;
+      }
+      .t-author {
+        display: flex;
+        align-items: center;
+        gap: 11px;
+      }
+      .t-av {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, var(--gold), var(--green));
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: var(--serif);
+        font-weight: 700;
+        font-size: 0.88rem;
+        color: var(--white);
+        flex-shrink: 0;
+      }
+      .t-name {
+        font-weight: 700;
+        font-size: 0.84rem;
+        color: var(--ink);
+      }
+      .t-loc {
+        font-size: 0.72rem;
+        color: var(--ink-40);
+        margin-top: 1px;
+      }
+      .testi-cta {
+        text-align: center;
+        margin-top: 40px;
+      }
+      .testi-cta p {
+        font-size: 0.9rem;
+        color: var(--ink-70);
+        margin-bottom: 16px;
       }
 
+      /* ═══ TRUST ═══ */
+      .trust-section {
+        background: var(--white);
+        padding: 80px var(--pad);
+      }
+      .trust-hd {
+        text-align: center;
+        margin-bottom: 42px;
+      }
+      .trust-grid {
+        max-width: 900px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 18px;
+        margin-bottom: 30px;
+      }
+      .trust-card {
+        background: var(--cream);
+        border: 1.5px solid var(--border);
+        border-radius: var(--r-lg);
+        padding: 24px;
+        text-align: center;
+        transition: all 0.3s;
+      }
+      .trust-card:hover {
+        box-shadow: var(--sh2);
+        transform: translateY(-3px);
+      }
+      .trust-ic {
+        width: 54px;
+        height: 54px;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.4rem;
+        margin: 0 auto 14px;
+      }
+      .ti-gold {
+        background: var(--gold-lt);
+        color: var(--gold-dk);
+      }
+      .ti-green {
+        background: var(--green-lt);
+        color: var(--green-dk);
+      }
+      .ti-sky {
+        background: var(--sky-lt);
+        color: var(--sky-dk);
+      }
+      .trust-card h3 {
+        font-size: 0.95rem;
+        font-weight: 700;
+        color: var(--ink);
+        margin-bottom: 7px;
+      }
+      .trust-card p {
+        font-size: 0.8rem;
+        color: var(--ink-70);
+        line-height: 1.6;
+      }
+      .reg-banner {
+        max-width: 900px;
+        margin: 0 auto;
+        background: var(--gold-lt);
+        border: 2px solid rgba(232, 160, 32, 0.4);
+        border-radius: var(--r-lg);
+        padding: 18px 26px;
+        display: flex;
+        align-items: center;
+        gap: 13px;
+        flex-wrap: wrap;
+        box-shadow: var(--sh1);
+      }
+      .reg-banner i {
+        font-size: 1.7rem;
+        color: var(--gold-dk);
+      }
+      .reg-banner-info strong {
+        display: block;
+        font-size: 0.87rem;
+        color: var(--ink);
+        margin-bottom: 2px;
+      }
+      .reg-banner-info span {
+        font-size: 0.78rem;
+        color: var(--ink-70);
+      }
+      .antiscam-warn {
+        max-width: 900px;
+        margin: 18px auto 0;
+        background: var(--green-lt);
+        border: 1.5px solid rgba(15, 171, 100, 0.3);
+        border-radius: var(--r-sm);
+        padding: 13px 18px;
+        display: flex;
+        align-items: flex-start;
+        gap: 9px;
+        font-size: 0.78rem;
+        color: var(--green-dk);
+        line-height: 1.55;
+        font-weight: 600;
+      }
+      .antiscam-warn i {
+        flex-shrink: 0;
+        margin-top: 2px;
+      }
+
+      /* ═══ FAQ ═══ */
+      .faq-section {
+        background: var(--cream2);
+        padding: 80px var(--pad);
+      }
+      .faq-wrap {
+        max-width: 700px;
+        margin: 44px auto 0;
+      }
       .faq-item {
         border-bottom: 1.5px solid var(--border);
       }
-
       .faq-q {
         width: 100%;
         background: none;
         border: none;
-        padding: 22px 0;
+        padding: 18px 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
         text-align: left;
         cursor: pointer;
-        font-family: "Plus Jakarta Sans", sans-serif;
+        font-family: var(--sans);
         font-weight: 700;
-        font-size: 0.98rem;
-        color: var(--navy);
-        gap: 20px;
-        transition: color 0.2s ease;
+        font-size: 0.9rem;
+        color: var(--ink);
+        gap: 18px;
+        transition: color 0.2s;
       }
-
       .faq-q:hover {
-        color: var(--amber-dark);
+        color: var(--gold-dk);
       }
-
-      .faq-icon-wrap {
-        width: 28px;
-        height: 28px;
+      .faq-ic {
+        width: 26px;
+        height: 26px;
         border-radius: 50%;
-        background: var(--bg3);
+        background: var(--cream3);
         display: flex;
         align-items: center;
         justify-content: center;
         flex-shrink: 0;
-        font-size: 0.7rem;
-        color: var(--text-soft);
-        transition: all 0.3s ease;
+        font-size: 0.65rem;
+        color: var(--ink-40);
+        transition: all 0.3s;
       }
-
-      .faq-item.open .faq-icon-wrap {
-        background: var(--amber);
-        color: var(--navy);
+      .faq-item.open .faq-ic {
+        background: var(--gold);
+        color: var(--ink);
         transform: rotate(45deg);
       }
-
       .faq-a {
         max-height: 0;
         overflow: hidden;
@@ -1273,310 +1905,313 @@
           max-height 0.4s ease,
           padding 0.3s ease;
       }
-
       .faq-a p {
-        font-size: 0.92rem;
-        color: var(--text-mid);
-        line-height: 1.7;
-        padding-bottom: 22px;
+        font-size: 0.86rem;
+        color: var(--ink-70);
+        line-height: 1.72;
+        padding-bottom: 18px;
       }
-
       .faq-item.open .faq-a {
         max-height: 300px;
       }
 
-      /* ── CONTACT ── */
+      /* ═══ CONTACT ═══ */
       .contact-section {
-        background: var(--navy);
-        padding: 80px 5%;
+        background: var(--ink);
+        padding: 72px var(--pad);
       }
-
       .contact-inner {
-        max-width: 1000px;
+        max-width: 960px;
         margin: 0 auto;
         text-align: center;
       }
-
       .contact-inner .eyebrow {
-        color: var(--amber);
+        color: var(--gold);
       }
-      .contact-inner .section-title {
-        color: white;
+      .contact-inner .eyebrow::before {
+        background: var(--gold);
       }
-      .contact-inner .section-sub {
-        color: rgba(255, 255, 255, 0.6);
+      .contact-inner .sec-title {
+        color: var(--white);
+      }
+      .contact-inner .sec-sub {
+        color: rgba(255, 255, 255, 0.45);
         margin: 0 auto;
         text-align: center;
       }
-
       .contact-grid {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        gap: 16px;
-        margin-top: 50px;
+        gap: 13px;
+        margin-top: 40px;
       }
-
-      .contact-card {
-        background: rgba(255, 255, 255, 0.06);
-        border: 1.5px solid rgba(255, 255, 255, 0.1);
-        border-radius: var(--radius-lg);
-        padding: 28px 20px;
+      .cc {
+        background: rgba(255, 255, 255, 0.05);
+        border: 1.5px solid rgba(255, 255, 255, 0.09);
+        border-radius: var(--r-lg);
+        padding: 24px 16px;
         text-decoration: none;
-        color: white;
+        color: var(--white);
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 12px;
+        gap: 10px;
         text-align: center;
-        transition: all 0.3s ease;
+        transition: all 0.3s;
       }
-
-      .contact-card:hover {
-        background: rgba(255, 255, 255, 0.1);
-        border-color: var(--amber);
+      .cc:hover {
+        background: rgba(255, 255, 255, 0.09);
+        border-color: var(--gold);
         transform: translateY(-4px);
       }
-
-      .contact-icon {
-        width: 52px;
-        height: 52px;
-        border-radius: 14px;
+      .cc-ic {
+        width: 48px;
+        height: 48px;
+        border-radius: 13px;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 1.4rem;
+        font-size: 1.3rem;
       }
-
-      .contact-card h3 {
-        font-family: "Fraunces", serif;
-        font-size: 1rem;
-        font-weight: 700;
+      .cc h3 {
+        font-family: var(--serif);
+        font-size: 0.92rem;
       }
-      .contact-card p {
-        font-size: 0.82rem;
-        color: rgba(255, 255, 255, 0.5);
+      .cc p {
+        font-size: 0.76rem;
+        color: rgba(255, 255, 255, 0.4);
         line-height: 1.5;
       }
 
-      /* ── FINAL CTA ── */
+      /* ═══ FINAL CTA ═══ */
       .final-cta {
-        background: linear-gradient(
-          155deg,
-          var(--navy) 0%,
-          var(--navy-light) 100%
-        );
+        background: linear-gradient(150deg, var(--ink) 0%, #162740 100%);
+        padding: 90px var(--pad);
         position: relative;
         overflow: hidden;
       }
-
       .final-cta::before {
         content: "";
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 800px;
-        height: 500px;
+        width: 900px;
+        height: 450px;
         background: radial-gradient(
           ellipse,
-          rgba(245, 184, 0, 0.1) 0%,
+          rgba(232, 160, 32, 0.12) 0%,
           transparent 70%
         );
       }
-
-      .final-cta-inner {
-        max-width: 680px;
+      .fci {
+        max-width: 650px;
         margin: 0 auto;
         text-align: center;
         position: relative;
         z-index: 2;
       }
-      .final-cta-inner .eyebrow {
-        color: var(--amber);
+      .fci .eyebrow {
+        color: var(--gold);
         justify-content: center;
-        margin-bottom: 18px;
+        margin-bottom: 16px;
       }
-      .final-cta-inner h2 {
-        color: white;
-        font-size: clamp(2rem, 4vw, 3rem);
-        letter-spacing: -1px;
-        margin-bottom: 18px;
+      .fci .eyebrow::before {
+        background: var(--gold);
       }
-      .final-cta-inner p {
-        color: rgba(255, 255, 255, 0.65);
-        font-size: 1rem;
-        line-height: 1.7;
-        margin-bottom: 40px;
+      .fci h2 {
+        font-family: var(--serif);
+        color: var(--white);
+        font-size: clamp(1.9rem, 4vw, 3rem);
+        letter-spacing: -0.3px;
+        margin-bottom: 15px;
       }
-
+      .fci p {
+        color: rgba(255, 255, 255, 0.55);
+        font-size: 0.95rem;
+        line-height: 1.72;
+        margin-bottom: 34px;
+      }
       .cta-perks {
         display: flex;
-        gap: 14px;
+        gap: 10px;
         justify-content: center;
         flex-wrap: wrap;
-        margin-bottom: 36px;
+        margin-bottom: 30px;
       }
-
-      .perk-pill {
+      .perk {
         display: flex;
         align-items: center;
-        gap: 7px;
-        background: rgba(255, 255, 255, 0.07);
-        border: 1.5px solid rgba(255, 255, 255, 0.12);
-        padding: 9px 18px;
+        gap: 6px;
+        background: rgba(255, 255, 255, 0.06);
+        border: 1.5px solid rgba(255, 255, 255, 0.11);
+        padding: 8px 15px;
         border-radius: 30px;
-        font-size: 0.83rem;
-        color: rgba(255, 255, 255, 0.8);
+        font-size: 0.78rem;
+        color: rgba(255, 255, 255, 0.7);
         font-weight: 500;
         white-space: nowrap;
       }
-
-      .perk-pill i {
+      .perk i {
         color: var(--green);
       }
-
-      .final-cta-btns {
+      .fc-btns {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 14px;
+        gap: 11px;
       }
-
-      .btn-cta-main {
-        display: inline-flex;
-        align-items: center;
-        gap: 10px;
-        background: var(--amber);
-        color: var(--navy);
-        font-weight: 700;
-        font-size: 1.05rem;
-        padding: 18px 44px;
-        border-radius: 50px;
-        text-decoration: none;
-        transition: all 0.3s ease;
-      }
-
-      .btn-cta-main:hover {
-        background: #ffd84d;
-        transform: translateY(-2px);
-        box-shadow: 0 12px 36px rgba(245, 184, 0, 0.45);
-      }
-
-      .btn-cta-ghost {
+      .btn-main-big {
         display: inline-flex;
         align-items: center;
         gap: 9px;
-        background: transparent;
-        color: rgba(255, 255, 255, 0.7);
-        font-size: 0.9rem;
-        font-weight: 600;
-        padding: 13px 28px;
+        background: var(--gold);
+        color: var(--ink);
+        font-weight: 700;
+        font-size: 1rem;
+        padding: 17px 40px;
         border-radius: 50px;
         text-decoration: none;
-        border: 1.5px solid rgba(255, 255, 255, 0.18);
-        transition: all 0.25s ease;
+        transition: all 0.3s;
+      }
+      .btn-main-big:hover {
+        background: #ffd84d;
+        transform: translateY(-2px);
+        box-shadow: 0 12px 36px rgba(232, 160, 32, 0.45);
+      }
+      .btn-soft-ghost {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: transparent;
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 0.86rem;
+        font-weight: 600;
+        padding: 12px 26px;
+        border-radius: 50px;
+        text-decoration: none;
+        border: 1.5px solid rgba(255, 255, 255, 0.15);
+        transition: all 0.25s;
+      }
+      .btn-soft-ghost:hover {
+        border-color: rgba(255, 255, 255, 0.38);
+        color: var(--white);
       }
 
-      .btn-cta-ghost:hover {
-        border-color: rgba(255, 255, 255, 0.4);
-        color: white;
-      }
-
-      /* ── FOOTER ── */
+      /* ═══ FOOTER ═══ */
       footer {
-        background: var(--navy);
-        border-top: 1px solid rgba(255, 255, 255, 0.08);
-        padding: 36px 5%;
+        background: var(--ink);
+        border-top: 1px solid rgba(255, 255, 255, 0.07);
+        padding: 30px var(--pad);
         display: flex;
         align-items: center;
         justify-content: space-between;
-        gap: 20px;
+        gap: 18px;
         flex-wrap: wrap;
-        max-width: 100%;
       }
-
-      .footer-brand {
+      .f-brand {
         display: flex;
         align-items: center;
-        gap: 10px;
-        text-decoration: none;
+        gap: 9px;
       }
-      .footer-copy {
-        font-size: 0.82rem;
-        color: rgba(255, 255, 255, 0.35);
+      .f-copy {
+        font-size: 0.76rem;
+        color: rgba(255, 255, 255, 0.28);
       }
-
-      .footer-links {
+      .f-links {
         display: flex;
-        gap: 18px;
+        gap: 16px;
+        flex-wrap: wrap;
       }
-      .footer-links a {
-        color: rgba(255, 255, 255, 0.4);
-        font-size: 0.82rem;
+      .f-links a {
+        color: rgba(255, 255, 255, 0.32);
+        font-size: 0.76rem;
         text-decoration: none;
-        transition: color 0.2s ease;
+        transition: color 0.2s;
       }
-      .footer-links a:hover {
-        color: rgba(255, 255, 255, 0.8);
-      }
-
-      /* ── ANIMATIONS ── */
-      @keyframes fadeUp {
-        from {
-          opacity: 0;
-          transform: translateY(24px);
-        }
-        to {
-          opacity: 1;
-          transform: translateY(0);
-        }
+      .f-links a:hover {
+        color: rgba(255, 255, 255, 0.72);
       }
 
-      @keyframes fadeRight {
-        from {
-          opacity: 0;
-          transform: translateX(30px);
-        }
-        to {
-          opacity: 1;
-          transform: translateX(0);
-        }
+      /* ═══ FLOATING WA ═══ */
+      .wa {
+        position: fixed;
+        bottom: 24px;
+        right: 24px;
+        z-index: 9000;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 8px;
       }
-
-      .reveal {
+      .wa-btn {
+        background: #25d366;
+        color: var(--white);
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.55rem;
+        box-shadow: 0 6px 22px rgba(37, 211, 102, 0.5);
+        text-decoration: none;
+        transition: all 0.3s;
+        animation: wapulse 3s ease infinite;
+      }
+      .wa-btn:hover {
+        transform: scale(1.1);
+        box-shadow: 0 10px 32px rgba(37, 211, 102, 0.65);
+      }
+      .wa-tip {
+        background: var(--ink);
+        color: var(--white);
+        font-size: 0.75rem;
+        font-weight: 600;
+        padding: 7px 13px;
+        border-radius: 30px;
+        white-space: nowrap;
         opacity: 0;
-        transform: translateY(22px);
-        transition:
-          opacity 0.6s ease,
-          transform 0.6s ease;
+        transform: translateX(8px);
+        transition: all 0.3s;
+        pointer-events: none;
       }
-
-      .reveal.visible {
+      .wa:hover .wa-tip {
         opacity: 1;
-        transform: none;
+        transform: translateX(0);
+      }
+      @keyframes wapulse {
+        0%,
+        100% {
+          box-shadow: 0 6px 22px rgba(37, 211, 102, 0.5);
+        }
+        50% {
+          box-shadow:
+            0 6px 32px rgba(37, 211, 102, 0.75),
+            0 0 0 10px rgba(37, 211, 102, 0.1);
+        }
       }
 
-      /* ── MOBILE OPTIMISATIONS (revised) ── */
+      /* ═══ RESPONSIVE ═══ */
       @media (max-width: 900px) {
-        .hamburger {
+        .burger {
           display: flex;
         }
         .nav-links {
           position: fixed;
-          top: 70px;
+          top: calc(38px + 64px);
           left: 5%;
           right: 5%;
-          width: 90%;
-          background: white;
+          background: var(--white);
           border-radius: 20px;
           border: 1.5px solid var(--border);
           flex-direction: column;
-          padding: 16px 0;
-          gap: 6px;
-          transform: translateY(-150%);
+          padding: 14px 0;
+          gap: 4px;
+          transform: translateY(-200%);
           transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1);
-          z-index: 999;
-          box-shadow: 0 25px 50px var(--shadow-md);
+          z-index: 99;
+          box-shadow: var(--sh3);
           opacity: 0;
           visibility: hidden;
         }
@@ -1585,146 +2220,139 @@
           opacity: 1;
           visibility: visible;
         }
-        .nav-link {
-          width: 90%;
-          margin: 0 auto;
-          padding: 14px 16px;
-          border-radius: 30px;
-          background: var(--bg);
-          text-align: center;
-          font-size: 1rem;
-        }
+        .nav-link,
         .nav-cta {
           width: 90%;
-          margin: 4px auto 10px;
-          padding: 14px 16px;
+          margin: 0 auto;
+          padding: 12px 16px;
           border-radius: 30px;
-          background: var(--amber);
-          color: var(--navy);
           text-align: center;
-          font-size: 1rem;
+          font-size: 0.92rem;
+        }
+        .nav-cta {
+          background: var(--gold);
+          color: var(--ink);
+          border: none;
+          margin: 4px auto 10px;
+        }
+        nav.scrolled .nav-links {
+          top: 64px;
         }
       }
-
-      @media (max-width: 1050px) {
-        .hero-inner {
-          gap: 40px;
+      @media (max-width: 1060px) {
+        .hero-grid {
+          gap: 36px;
         }
         .methods-grid {
           grid-template-columns: repeat(2, 1fr);
         }
-        .bonus-inner {
-          padding: 40px 40px;
+        .ai-grid {
+          gap: 40px;
+        }
+        .opps-grid {
+          grid-template-columns: 1fr;
         }
         .contact-grid {
           grid-template-columns: repeat(2, 1fr);
         }
-        .stats-grid {
+        .how-grid {
           grid-template-columns: repeat(2, 1fr);
         }
+        .how-line {
+          display: none;
+        }
       }
-
-      @media (max-width: 780px) {
-        .hero-inner {
-          grid-template-columns: 1fr;
-          gap: 40px;
-        }
-        .hero {
-          text-align: center;
-        }
-        .hero-sub,
-        .hero-badge {
-          margin-left: auto;
-          margin-right: auto;
-        }
-        .hero-btns,
-        .trust-items {
-          justify-content: center;
-        }
-        .hero-card {
-          order: -1;
-        }
-        .dashboard-card {
-          max-width: 480px;
-          margin: 0 auto;
-        }
-
-        .how-grid {
+      @media (max-width: 768px) {
+        .hero-grid {
           grid-template-columns: 1fr;
           gap: 36px;
         }
-        .how-connector {
-          display: none;
+        .hero {
+          text-align: center;
+          padding-top: calc(38px + 64px + 40px);
         }
-
-        .tgrid {
+        .hero-desc,
+        .hero-eyebrow {
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .hero-actions,
+        .hero-trust {
+          justify-content: center;
+        }
+        .hero-card-wrap {
+          order: -1;
+        }
+        .dash {
+          max-width: 440px;
+          margin: 0 auto;
+        }
+        .methods-grid,
+        .t-grid {
           grid-template-columns: 1fr;
           max-width: 480px;
           margin-left: auto;
           margin-right: auto;
         }
-
-        .bonus-inner {
+        .ai-grid,
+        .ref-grid {
+          grid-template-columns: 1fr;
+        }
+        .bonus-card {
           grid-template-columns: 1fr;
           text-align: center;
-          gap: 30px;
+          gap: 24px;
+          padding: 36px 28px;
         }
-        .bonus-sub {
+        .bonus-p {
           max-width: 100%;
         }
-
-        .methods-grid {
-          grid-template-columns: 1fr;
-        }
-        .methods-header {
-          flex-direction: column;
+        .trust-grid {
+          grid-template-columns: 1fr 1fr;
         }
       }
-
-      @media (max-width: 560px) {
+      @media (max-width: 540px) {
+        nav {
+          top: 0;
+        }
+        .hero {
+          padding-top: calc(64px + 40px);
+        }
+        .nav-links {
+          top: 64px;
+        }
         .contact-grid {
           grid-template-columns: 1fr 1fr;
         }
-        .section {
-          padding: 70px 5%;
+        .how-grid {
+          grid-template-columns: 1fr;
         }
-        .bonus-inner {
-          padding: 36px 24px;
-        }
-        .bonus-heading {
-          font-size: 2rem;
+        .trust-grid {
+          grid-template-columns: 1fr;
         }
         footer {
           flex-direction: column;
           text-align: center;
         }
-        .footer-links {
-          flex-wrap: wrap;
+        .f-links {
           justify-content: center;
         }
-        .wa-float {
-          bottom: 18px;
-          right: 18px;
+        .bonus-card {
+          padding: 28px 20px;
         }
-        .stats-grid {
-          grid-template-columns: repeat(2, 1fr);
-        }
-      }
-
-      @media (max-width: 400px) {
-        .contact-grid {
-          grid-template-columns: 1fr;
+        .bonus-h {
+          font-size: 1.85rem;
         }
       }
     </style>
   </head>
   <body>
-    <!-- ── FLOATING WHATSAPP ── -->
-    <div class="wa-float">
-      <span class="wa-tooltip">Chat with Mentor Sydney</span>
+    <!-- ══ FLOATING WHATSAPP ══ -->
+    <div class="wa">
+      <span class="wa-tip">Chat with Mentor Sydney</span>
       <a
         href="https://wa.me/254745656143?text=Hello%20Mentor%20Sydney,%20guide%20me%20through."
-        class="wa-bubble"
+        class="wa-btn"
         target="_blank"
         aria-label="WhatsApp Support"
       >
@@ -1732,148 +2360,132 @@
       </a>
     </div>
 
-    <!-- ── NAV (mobile header improved) ── -->
-    <nav id="navbar">
-      <a href="#" class="nav-logo">
-        <div class="logo-icon">TC</div>
-        <div class="logo-text">TASK<span>CHAT</span></div>
-      </a>
+    <!-- ══ TICKER ══ -->
+    <div class="ticker">
+      <div class="ticker-inner">
+        <div class="ticker-track" id="tickerTrack"></div>
+      </div>
+    </div>
 
-      <button class="hamburger" id="hamburger" aria-label="Menu">
+    <!-- ══ NAV ══ -->
+    <nav id="nav">
+      <div class="nav-brand">
+        <div class="nav-logo-mark"></div>
+        <div class="nav-logo-text">TASK<span>CHAT</span></div>
+      </div>
+      <button class="burger" id="burger" aria-label="Toggle menu">
         <span></span><span></span><span></span>
       </button>
-
       <div class="nav-links" id="navLinks">
         <a href="#earn" class="nav-link">How to Earn</a>
-        <a href="#how" class="nav-link">Get Started</a>
-        <a href="#testimonials" class="nav-link">Reviews</a>
-        <a
-          href="https://wa.me/254745656143?text=Hello%20Mentor%20Sydney,%20guide%20me%20through."
-          class="nav-link"
-          target="_blank"
+        <a href="#ai" class="nav-link">AI Tasks</a>
+        <a href="#opps" class="nav-link">Loans &amp; Scholarships</a>
+        <a href="#referral" class="nav-link">Refer &amp; Earn</a>
+        <a href="#reviews" class="nav-link">Reviews</a>
+        <a href="https://wa.me/254745656143" target="_blank" class="nav-link"
+          ><i class="fab fa-whatsapp"></i> Mentor</a
         >
-          <i class="fab fa-whatsapp"></i> WhatsApp
-        </a>
         <a
           href="https://mulastar.com/register.php?ref=Sydney"
-          class="nav-cta"
           target="_blank"
+          class="nav-cta"
+          >Join — Get KSH 300 Free</a
         >
-          Join Now — Get KSH 300
-        </a>
       </div>
     </nav>
 
-    <!-- ── HERO ── -->
-    <section class="hero" id="hero">
-      <div class="hero-blob1"></div>
-      <div class="hero-blob2"></div>
-      <div class="hero-inner">
-        <!-- Copy -->
-        <div class="hero-copy">
-          <div class="hero-badge">
-            <span class="green-dot"></span>
-            12+ African Countries · Officially Registered
+    <!-- ══ HERO ══ -->
+    <section class="hero" id="top">
+      <div class="hero-orb1"></div>
+      <div class="hero-orb2"></div>
+      <div class="hero-grid">
+        <div>
+          <div class="hero-eyebrow">
+            <span class="pulsedot"></span>
+            <span class="live-count-wrap"
+              ><span class="live-count-num" id="liveCounterNum">347</span></span
+            >
+            &nbsp;people earning right now · Kenya &amp; 12 African countries
           </div>
-
-          <h1>Turn Your <em>Phone Time</em> Into Daily Income</h1>
-
-          <p class="hero-sub">
-            Join over 10,000 Kenyans earning from home with TaskChat. Chat with
-            people, watch videos, answer surveys, and cash out instantly via
-            M-Pesa.
+          <h1>
+            Turn Your<br /><em>Phone Time</em> Into<br />Real Daily Income
+          </h1>
+          <p class="hero-desc">
+            Join over 10,000 Kenyans earning from home — chat, watch videos,
+            complete AI tasks, take surveys, and cash out instantly to M-Pesa.
+            No experience required.
           </p>
-
-          <div class="hero-btns">
+          <div class="hero-actions">
             <a
               href="https://mulastar.com/register.php?ref=Sydney"
-              class="btn-primary"
+              class="btn-cta"
               target="_blank"
+              ><i class="fas fa-rocket"></i> Start Earning — KSH 500</a
             >
-              <i class="fas fa-rocket"></i> Start Earning — KSH 500
-            </a>
             <a
               href="https://wa.me/254745656143?text=Hello%20Mentor%20Sydney,%20guide%20me%20through."
-              class="btn-secondary"
+              class="btn-ghost"
               target="_blank"
+              ><i class="fab fa-whatsapp"></i> Talk to Mentor</a
             >
-              <i class="fab fa-whatsapp"></i> Talk to Mentor
-            </a>
           </div>
-
-          <div class="trust-items">
-            <div class="trust-item">
-              <i class="fas fa-shield-halved"></i> 100% Legit
+          <div class="hero-trust">
+            <div class="hero-trust-item">
+              <i class="fas fa-shield-halved"></i> Officially Registered
             </div>
-            <div class="trust-item">
-              <i class="fas fa-bolt"></i> Instant Withdrawals
+            <div class="hero-trust-item">
+              <i class="fas fa-bolt"></i> Instant M-Pesa Cashout
             </div>
-            <div class="trust-item">
-              <i class="fas fa-gift"></i> KSH 300 Bonus on Join
+            <div class="hero-trust-item">
+              <i class="fas fa-gift"></i> KSH 300 Free Bonus
+            </div>
+            <div class="hero-trust-item">
+              <i class="fas fa-robot"></i> AI Tasks Available
             </div>
           </div>
         </div>
-
-        <!-- Dashboard Card -->
-        <div class="hero-card">
-          <div class="dashboard-card">
-            <div class="dc-header">
-              <span class="dc-title">My Dashboard</span>
-              <div class="live-pill"><span class="live-dot"></span> Live</div>
+        <!-- Dashboard -->
+        <div class="hero-card-wrap">
+          <div class="dash">
+            <div class="dash-hd">
+              <span class="dash-label">My Dashboard</span>
+              <div class="live-tag"><span class="live-d"></span> Live</div>
             </div>
-
-            <div class="dc-amount" id="liveAmount">KSH 4,870</div>
-            <div class="dc-change">
-              <i class="fas fa-arrow-trend-up"></i> +KSH 340 today
+            <div class="dash-amount" id="liveAmt">KSH 5,460</div>
+            <div class="dash-delta">
+              <i class="fas fa-arrow-trend-up"></i> +KSH 440 earned today
             </div>
-
-            <div class="streams-grid">
-              <div class="stream-tile">
-                <div
-                  class="stream-icon"
-                  style="background: rgba(245, 184, 0, 0.12)"
-                >
-                  <i class="fas fa-users" style="color: var(--amber-dark)"></i>
+            <div class="streams">
+              <div class="stream-card">
+                <div class="s-icon" style="background: rgba(232, 160, 32, 0.1)">
+                  <i class="fas fa-users" style="color: var(--gold-dk)"></i>
                 </div>
-                <div class="stream-label">Chatting</div>
-                <div class="stream-val">KSH 1,800</div>
+                <div class="s-lbl">Chatting</div>
+                <div class="s-val">KSH 1,800</div>
               </div>
-              <div class="stream-tile">
-                <div
-                  class="stream-icon"
-                  style="background: rgba(0, 185, 107, 0.12)"
-                >
-                  <i
-                    class="fab fa-youtube"
-                    style="color: var(--green-dark)"
-                  ></i>
+              <div class="stream-card">
+                <div class="s-icon" style="background: rgba(15, 171, 100, 0.1)">
+                  <i class="fab fa-youtube" style="color: var(--green-dk)"></i>
                 </div>
-                <div class="stream-label">Videos</div>
-                <div class="stream-val">KSH 970</div>
+                <div class="s-lbl">Videos</div>
+                <div class="s-val">KSH 970</div>
               </div>
-              <div class="stream-tile">
-                <div
-                  class="stream-icon"
-                  style="background: rgba(77, 141, 255, 0.12)"
-                >
-                  <i class="fas fa-brain" style="color: #3d7dff"></i>
+              <div class="stream-card">
+                <div class="s-icon" style="background: rgba(25, 103, 243, 0.1)">
+                  <i class="fas fa-robot" style="color: var(--sky-dk)"></i>
                 </div>
-                <div class="stream-label">Surveys</div>
-                <div class="stream-val">KSH 1,200</div>
+                <div class="s-lbl">AI Tasks</div>
+                <div class="s-val">KSH 1,520</div>
               </div>
-              <div class="stream-tile">
-                <div
-                  class="stream-icon"
-                  style="background: rgba(139, 92, 246, 0.12)"
-                >
-                  <i class="fas fa-ad" style="color: #7c3aed"></i>
+              <div class="stream-card">
+                <div class="s-icon" style="background: rgba(124, 58, 237, 0.1)">
+                  <i class="fas fa-brain" style="color: var(--plum)"></i>
                 </div>
-                <div class="stream-label">Ads</div>
-                <div class="stream-val">KSH 900</div>
+                <div class="s-lbl">Surveys</div>
+                <div class="s-val">KSH 1,170</div>
               </div>
             </div>
-
-            <button class="dc-withdraw">
+            <button class="withdraw-btn">
               <i class="fas fa-paper-plane"></i> Withdraw to M-Pesa
             </button>
           </div>
@@ -1881,491 +2493,939 @@
       </div>
     </section>
 
-    <!-- ── TICKER ── -->
-    <div class="ticker-wrap">
-      <div class="ticker-track">
-        <div class="ticker-item">
-          <i class="fas fa-check-circle"></i
-          ><strong>James M. — Nairobi</strong> withdrew KSH 2,400
-        </div>
-        <div class="ticker-item">
-          <i class="fas fa-check-circle"></i
-          ><strong>Achieng W. — Kisumu</strong> earned KSH 890 from surveys
-        </div>
-        <div class="ticker-item">
-          <i class="fas fa-check-circle"></i
-          ><strong>Peter K. — Mombasa</strong> referred 3 friends — +KSH 900
-        </div>
-        <div class="ticker-item">
-          <i class="fas fa-check-circle"></i
-          ><strong>Mercy J. — Nakuru</strong> withdrew KSH 1,700
-        </div>
-        <div class="ticker-item">
-          <i class="fas fa-check-circle"></i
-          ><strong>Brian O. — Eldoret</strong> earned KSH 1,100 today
-        </div>
-        <div class="ticker-item">
-          <i class="fas fa-check-circle"></i
-          ><strong>Susan N. — Nairobi</strong> withdrew KSH 3,200
-        </div>
-        <div class="ticker-item">
-          <i class="fas fa-check-circle"></i
-          ><strong>Collins A. — Thika</strong> earned KSH 650 from videos
-        </div>
-        <div class="ticker-item">
-          <i class="fas fa-check-circle"></i
-          ><strong>Faith L. — Kisii</strong> referred 5 friends — +KSH 1,500
-        </div>
-        <!-- Duplicate for loop -->
-        <div class="ticker-item">
-          <i class="fas fa-check-circle"></i
-          ><strong>James M. — Nairobi</strong> withdrew KSH 2,400
-        </div>
-        <div class="ticker-item">
-          <i class="fas fa-check-circle"></i
-          ><strong>Achieng W. — Kisumu</strong> earned KSH 890 from surveys
-        </div>
-        <div class="ticker-item">
-          <i class="fas fa-check-circle"></i
-          ><strong>Peter K. — Mombasa</strong> referred 3 friends — +KSH 900
-        </div>
-        <div class="ticker-item">
-          <i class="fas fa-check-circle"></i
-          ><strong>Mercy J. — Nakuru</strong> withdrew KSH 1,700
-        </div>
-        <div class="ticker-item">
-          <i class="fas fa-check-circle"></i
-          ><strong>Brian O. — Eldoret</strong> earned KSH 1,100 today
-        </div>
-        <div class="ticker-item">
-          <i class="fas fa-check-circle"></i
-          ><strong>Susan N. — Nairobi</strong> withdrew KSH 3,200
-        </div>
-        <div class="ticker-item">
-          <i class="fas fa-check-circle"></i
-          ><strong>Collins A. — Thika</strong> earned KSH 650 from videos
-        </div>
-        <div class="ticker-item">
-          <i class="fas fa-check-circle"></i
-          ><strong>Faith L. — Kisii</strong> referred 5 friends — +KSH 1,500
-        </div>
-      </div>
-    </div>
-
-    <!-- ── STATS ── -->
-    <div class="stats-section reveal">
-      <div class="stats-grid">
-        <div class="stat-tile">
-          <span class="stat-num">10K+</span
-          ><span class="stat-label">Active Members</span>
-        </div>
-        <div class="stat-tile">
-          <span class="stat-num">KSH 5K+</span
-          ><span class="stat-label">Max Daily Earnings</span>
-        </div>
-        <div class="stat-tile">
-          <span class="stat-num">12+</span
-          ><span class="stat-label">African Countries</span>
-        </div>
-        <div class="stat-tile">
-          <span class="stat-num">Instant</span
-          ><span class="stat-label">M-Pesa Withdrawals</span>
-        </div>
-      </div>
-    </div>
-
-    <!-- ── BONUS BANNER ── -->
-    <div class="bonus-section reveal">
-      <div class="bonus-inner">
+    <!-- ══ WELCOME BONUS BANNER ══ -->
+    <div class="bonus-wrap">
+      <div class="bonus-card reveal">
         <div>
-          <div class="bonus-tag">
-            <i class="fas fa-gift"></i> Limited Welcome Offer
-          </div>
-          <h2 class="bonus-heading">
-            Get KSH 300 Free<br />the Moment You Join
-          </h2>
-          <p class="bonus-sub">
-            Your welcome bonus is credited instantly after registration. No
-            waiting, no gimmicks — start earning from day one with real M-Pesa
-            withdrawals.
+          <div class="bonus-tag"><i class="fas fa-gift"></i> Welcome Offer</div>
+          <h2 class="bonus-h">Get KSH 300 Free<br />The Moment You Join</h2>
+          <p class="bonus-p">
+            Your welcome bonus is credited instantly after registration — no
+            waiting, no conditions. Withdraw it alongside your first earnings
+            within 24 hours.
           </p>
         </div>
-        <div class="bonus-cta">
-          <div class="bonus-badge">
-            <span>BONUS</span>
-            <span class="big">300</span>
-            <span class="small">KSH Welcome Bonus</span>
+        <div style="text-align: center; flex-shrink: 0">
+          <div class="bonus-circle">
+            <span>BONUS</span><span class="big">300</span><span>KSH Free</span>
           </div>
           <a
             href="https://mulastar.com/register.php?ref=Sydney"
-            class="btn-primary"
+            class="btn-cta"
             target="_blank"
             style="display: inline-flex"
+            ><i class="fas fa-lock-open"></i> Claim Bonus Now</a
           >
-            <i class="fas fa-lock-open"></i> Claim Bonus Now
-          </a>
         </div>
       </div>
     </div>
 
-    <!-- ── EARNING METHODS ── -->
-    <section class="section methods-bg" id="earn">
-      <div class="section-inner">
-        <div class="methods-header">
+    <!-- ══ EARNING METHODS ══ -->
+    <section class="section" id="earn" style="background: var(--white)">
+      <div class="inner">
+        <div class="methods-hd">
           <div>
-            <div class="eyebrow">Multiple Income Streams</div>
-            <h2 class="section-title">Ways to Earn Daily</h2>
-            <p class="section-sub">
-              Choose the methods that fit your lifestyle. Do one or do them all
-              — every click counts.
+            <div class="eyebrow">Advertising Opportunities</div>
+            <h2 class="sec-title">6 Ways to Earn Daily</h2>
+            <p class="sec-sub">
+              Stack multiple streams for maximum income. Every task completed,
+              every minute spent adds to your balance.
             </p>
           </div>
           <a
             href="https://mulastar.com/register.php?ref=Sydney"
-            class="btn-primary"
+            class="btn-cta"
             target="_blank"
+            ><i class="fas fa-arrow-right"></i> Start Earning</a
           >
-            <i class="fas fa-arrow-right"></i> Start Earning
-          </a>
         </div>
-
         <div class="methods-grid">
-          <!-- Card 1: Welcome Bonus -->
           <a
             href="https://mulastar.com/register.php?ref=Sydney"
             target="_blank"
-            class="method-card c-gold reveal"
+            class="mc gold reveal"
           >
-            <div class="method-img img-bonus">
-              <span class="img-inner-icon">🎁</span>
+            <div class="mc-top">
+              <div class="mc-icon"><i class="fas fa-gift"></i></div>
+              <span class="badge-hot">Instant</span>
             </div>
-            <div class="method-icon-wrap"><i class="fas fa-gift"></i></div>
-            <div class="method-name">Welcome Bonus</div>
-            <p class="method-desc">
-              Instant KSH 300 credited the moment you register. No conditions,
-              no delays — straight to your account.
+            <div class="mc-name">Welcome Bonus</div>
+            <p class="mc-desc">
+              Instant KSH 300 credited the moment you register. No tasks needed,
+              no conditions — it goes straight to your withdrawable balance.
             </p>
-            <div class="method-footer">
-              <span class="earn-label">Instant Reward</span>
-              <span class="earn-chip">KSH 300</span>
+            <div class="mc-ft">
+              <span class="earn-lbl">On Registration</span
+              ><span class="earn-chip">KSH 300</span>
             </div>
           </a>
-
-          <!-- Card 2: Chatting -->
           <a
             href="https://mulastar.com/register.php?ref=Sydney"
             target="_blank"
-            class="method-card c-green reveal"
+            class="mc green reveal"
           >
-            <div class="method-img img-chat">
-              <span class="img-inner-icon">💬</span>
+            <div class="mc-top">
+              <div class="mc-icon"><i class="fas fa-comments"></i></div>
             </div>
-            <div class="method-icon-wrap"><i class="fas fa-users"></i></div>
-            <div class="method-name">Chat with Lonely People</div>
-            <p class="method-desc">
-              Earn KSH 300 per successful chat. Connect with curious foreigners,
-              lonely people, and advice seekers worldwide.
+            <div class="mc-name">Chat with Lonely People</div>
+            <p class="mc-desc">
+              Connect with foreign clients seeking conversation, advice, and
+              companionship. Earn KSH 300 per completed meaningful chat session.
             </p>
-            <div class="method-footer">
-              <span class="earn-label">Per successful chat</span>
-              <span class="earn-chip">KSH 300</span>
+            <div class="mc-ft">
+              <span class="earn-lbl">Per successful chat</span
+              ><span class="earn-chip">KSH 300</span>
             </div>
           </a>
-
-          <!-- Card 3: Videos -->
           <a
             href="https://mulastar.com/register.php?ref=Sydney"
             target="_blank"
-            class="method-card c-blue reveal"
+            class="mc sky reveal"
           >
-            <div class="method-img img-video">
-              <span class="img-inner-icon">▶️</span>
+            <div class="mc-top">
+              <div class="mc-icon"><i class="fab fa-youtube"></i></div>
             </div>
-            <div class="method-icon-wrap"><i class="fab fa-youtube"></i></div>
-            <div class="method-name">Videos (YouTube & TikTok)</div>
-            <p class="method-desc">
-              Watch short sponsored videos across YouTube, TikTok, Instagram
-              Reels. Earn per view, no skills needed.
+            <div class="mc-name">Watch Videos</div>
+            <p class="mc-desc">
+              Watch sponsored clips on YouTube, TikTok, Instagram Reels. Earn
+              per view, no skills needed — perfect if you're just starting out.
             </p>
-            <div class="method-footer">
-              <span class="earn-label">Per video watched</span>
-              <span class="earn-chip">KSH 50–100</span>
+            <div class="mc-ft">
+              <span class="earn-lbl">Per video watched</span
+              ><span class="earn-chip">KSH 50–100</span>
             </div>
           </a>
-
-          <!-- Card 4: Surveys -->
           <a
             href="https://mulastar.com/register.php?ref=Sydney"
             target="_blank"
-            class="method-card c-purple reveal"
+            class="mc plum reveal"
           >
-            <div class="method-img img-survey">
-              <span class="img-inner-icon">📋</span>
+            <div class="mc-top">
+              <div class="mc-icon"><i class="fas fa-brain"></i></div>
             </div>
-            <div class="method-icon-wrap"><i class="fas fa-brain"></i></div>
-            <div class="method-name">Trivia & Surveys</div>
-            <p class="method-desc">
-              Answer fun questions and take sponsored surveys. Complete a survey
-              in under 5 minutes and earn instantly.
+            <div class="mc-name">Trivia &amp; Surveys</div>
+            <p class="mc-desc">
+              Complete fun sponsored surveys in under 5 minutes. Companies pay
+              real money for your opinion — and now so does TaskChat.
             </p>
-            <div class="method-footer">
-              <span class="earn-label">Per survey completed</span>
-              <span class="earn-chip">KSH 50–100</span>
+            <div class="mc-ft">
+              <span class="earn-lbl">Per survey completed</span
+              ><span class="earn-chip">KSH 50–100</span>
             </div>
           </a>
-
-          <!-- Card 5: Ads -->
           <a
             href="https://mulastar.com/register.php?ref=Sydney"
             target="_blank"
-            class="method-card c-pink reveal"
+            class="mc rose reveal"
           >
-            <div class="method-img img-ads">
-              <span class="img-inner-icon">📱</span>
+            <div class="mc-top">
+              <div class="mc-icon"><i class="fas fa-rectangle-ad"></i></div>
             </div>
-            <div class="method-icon-wrap">
-              <i class="fas fa-mouse-pointer"></i>
-            </div>
-            <div class="method-name">Ads Clicking</div>
-            <p class="method-desc">
-              Click and view ads for 15–30 seconds. The simplest way to earn —
-              ideal for beginners just getting started.
+            <div class="mc-name">Ads Clicking</div>
+            <p class="mc-desc">
+              View and click ads for 15–30 seconds each. The simplest stream on
+              the platform — earn while relaxing with zero skill required.
             </p>
-            <div class="method-footer">
-              <span class="earn-label">Per ad viewed</span>
-              <span class="earn-chip">KSH 20–200</span>
+            <div class="mc-ft">
+              <span class="earn-lbl">Per ad viewed</span
+              ><span class="earn-chip">KSH 20–200</span>
+            </div>
+          </a>
+          <a
+            href="https://mulastar.com/register.php?ref=Sydney"
+            target="_blank"
+            class="mc teal reveal"
+          >
+            <div class="mc-top">
+              <div class="mc-icon"><i class="fas fa-robot"></i></div>
+              <span class="badge-new">New ✦</span>
+            </div>
+            <div class="mc-name">AI Data Tasks</div>
+            <p class="mc-desc">
+              Help train AI models — label images, rate responses, transcribe
+              audio. The highest-paying stream, with demand growing every day.
+            </p>
+            <div class="mc-ft">
+              <span class="earn-lbl">Per task batch</span
+              ><span class="earn-chip">KSH 100–500</span>
             </div>
           </a>
         </div>
       </div>
     </section>
 
-    <!-- ── HOW IT WORKS ── -->
-    <section class="section how-section" id="how">
-      <div class="section-inner">
+    <!-- ══ AI TASKS ══ -->
+    <section class="ai-section" id="ai">
+      <div class="ai-glow"></div>
+      <div class="ai-grid">
+        <div class="ai-copy reveal">
+          <div class="eyebrow">Highest-Paying Stream</div>
+          <h2 class="sec-title">Earn More with<br />AI Data Microtasks</h2>
+          <p class="sec-sub">
+            The AI industry pays real money for human intelligence. TaskChat
+            gives you access to these premium opportunities — no technical
+            background needed.
+          </p>
+          <div class="ai-task-list">
+            <div class="ai-task">
+              <div class="ai-task-ic"><i class="fas fa-image"></i></div>
+              <div class="ai-task-info">
+                <div class="ai-task-name">Image Labeling &amp; Tagging</div>
+                <div class="ai-task-desc">
+                  Label objects, scenes, and actions in images to train computer
+                  vision models
+                </div>
+              </div>
+              <span class="ai-task-earn">KSH 150/batch</span>
+            </div>
+            <div class="ai-task">
+              <div class="ai-task-ic"><i class="fas fa-microphone"></i></div>
+              <div class="ai-task-info">
+                <div class="ai-task-name">Audio Transcription</div>
+                <div class="ai-task-desc">
+                  Transcribe short audio clips in English or Kiswahili for
+                  speech AI training
+                </div>
+              </div>
+              <span class="ai-task-earn">KSH 200/batch</span>
+            </div>
+            <div class="ai-task">
+              <div class="ai-task-ic">
+                <i class="fas fa-star-half-stroke"></i>
+              </div>
+              <div class="ai-task-info">
+                <div class="ai-task-name">AI Response Rating</div>
+                <div class="ai-task-desc">
+                  Rate and rank AI-generated text for quality, helpfulness, and
+                  accuracy
+                </div>
+              </div>
+              <span class="ai-task-earn">KSH 300/batch</span>
+            </div>
+            <div class="ai-task">
+              <div class="ai-task-ic"><i class="fas fa-language"></i></div>
+              <div class="ai-task-info">
+                <div class="ai-task-name">Translation &amp; Localization</div>
+                <div class="ai-task-desc">
+                  Translate between English, Kiswahili, and other African
+                  languages
+                </div>
+              </div>
+              <span class="ai-task-earn">KSH 500/batch</span>
+            </div>
+          </div>
+          <div style="margin-top: 24px">
+            <a
+              href="https://mulastar.com/register.php?ref=Sydney"
+              class="btn-cta"
+              target="_blank"
+              ><i class="fas fa-robot"></i> Unlock AI Tasks</a
+            >
+          </div>
+        </div>
+        <div class="ai-panel reveal">
+          <div class="ai-panel-hd">
+            <div class="ai-panel-title">Your AI Progress</div>
+            <span class="ai-level">Level 3 Worker</span>
+          </div>
+          <div class="prog-list">
+            <div class="prog-item">
+              <div class="prog-hd">
+                <span>Image Labeling</span><span>KSH 1,200</span>
+              </div>
+              <div class="prog-bar">
+                <div
+                  class="prog-fill"
+                  data-w="78"
+                  style="background: var(--sky); width: 0%"
+                ></div>
+              </div>
+            </div>
+            <div class="prog-item">
+              <div class="prog-hd">
+                <span>Audio Transcription</span><span>KSH 800</span>
+              </div>
+              <div class="prog-bar">
+                <div
+                  class="prog-fill"
+                  data-w="55"
+                  style="background: var(--gold); width: 0%"
+                ></div>
+              </div>
+            </div>
+            <div class="prog-item">
+              <div class="prog-hd">
+                <span>Response Rating</span><span>KSH 2,100</span>
+              </div>
+              <div class="prog-bar">
+                <div
+                  class="prog-fill"
+                  data-w="90"
+                  style="background: var(--green); width: 0%"
+                ></div>
+              </div>
+            </div>
+            <div class="prog-item">
+              <div class="prog-hd">
+                <span>Translation</span><span>KSH 650</span>
+              </div>
+              <div class="prog-bar">
+                <div
+                  class="prog-fill"
+                  data-w="38"
+                  style="background: var(--plum); width: 0%"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div class="ai-total-box">
+            <div class="ai-total-lbl">Total AI Earnings — This Month</div>
+            <div class="ai-total-num">KSH 4,750</div>
+            <div class="ai-total-sub">
+              <i class="fas fa-arrow-trend-up"></i>+28% from last month
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ OPPORTUNITIES ══ -->
+    <section class="opps-section section" id="opps">
+      <div class="inner">
+        <div class="eyebrow">Partner Advertising Opportunities</div>
+        <h2 class="sec-title">Loans &amp; Scholarships</h2>
+        <p class="sec-sub">
+          As a TaskChat member, you gain access to vetted financial and
+          educational opportunities from our advertising partners.
+        </p>
+        <div class="disclaimer" style="margin-top: 16px; max-width: 780px">
+          <i class="fas fa-info-circle"></i>
+          <span
+            ><strong>Advertising Disclosure:</strong> The opportunities below
+            are promoted by third-party advertising partners. TaskChat
+            facilitates introductions but does not directly provide loans or
+            scholarships. Always read partner terms carefully before applying.
+            Partner availability and terms may change at any time.</span
+          >
+        </div>
+        <div class="opps-grid">
+          <div class="opp-card reveal">
+            <div class="opp-card-hd">
+              <div class="opp-ic opp-ic-loan">
+                <i class="fas fa-money-bill-wave"></i>
+              </div>
+              <div class="opp-card-title">
+                <h3>Mobile Micro-Loans</h3>
+                <span class="opp-pill pill-loan">Advertising Partner</span>
+              </div>
+            </div>
+            <div class="opp-body">
+              <p class="opp-desc">
+                Our partner lenders offer fast mobile loans to TaskChat members.
+                Use your earning activity as proof of income and access
+                emergency funds when you need them most.
+              </p>
+              <div class="opp-features">
+                <div class="opp-feat">
+                  <i class="fas fa-check-circle"></i> Loans from KSH 500 to KSH
+                  50,000
+                </div>
+                <div class="opp-feat">
+                  <i class="fas fa-check-circle"></i> 5–30 day flexible
+                  repayment periods
+                </div>
+                <div class="opp-feat">
+                  <i class="fas fa-check-circle"></i> Disbursed to M-Pesa in
+                  minutes
+                </div>
+                <div class="opp-feat">
+                  <i class="fas fa-check-circle"></i> No collateral or guarantor
+                  required
+                </div>
+                <div class="opp-feat">
+                  <i class="fas fa-check-circle"></i> TaskChat earnings used as
+                  income proof
+                </div>
+              </div>
+              <a
+                href="https://wa.me/254745656143?text=Hello%20Mentor%20Sydney,%20I%20am%20interested%20in%20the%20loan%20partner%20opportunity."
+                class="opp-btn opp-btn-loan"
+                target="_blank"
+                ><i class="fab fa-whatsapp"></i> Enquire via WhatsApp</a
+              >
+            </div>
+          </div>
+          <div class="opp-card reveal">
+            <div class="opp-card-hd">
+              <div class="opp-ic opp-ic-schol">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <div class="opp-card-title">
+                <h3>Online Education Scholarships</h3>
+                <span class="opp-pill pill-schol">Advertising Partner</span>
+              </div>
+            </div>
+            <div class="opp-body">
+              <p class="opp-desc">
+                TaskChat has partnered with online learning platforms offering
+                free and subsidized courses to members. Upskill in tech,
+                business, and digital marketing while you earn.
+              </p>
+              <div class="opp-features">
+                <div class="opp-feat">
+                  <i class="fas fa-check-circle"></i> Free and discounted
+                  digital skills courses
+                </div>
+                <div class="opp-feat">
+                  <i class="fas fa-check-circle"></i> Certifications in tech,
+                  business &amp; freelancing
+                </div>
+                <div class="opp-feat">
+                  <i class="fas fa-check-circle"></i> Earn while you learn — no
+                  study leave needed
+                </div>
+                <div class="opp-feat">
+                  <i class="fas fa-check-circle"></i> Scholarship values from
+                  KSH 500 to KSH 50,000
+                </div>
+                <div class="opp-feat">
+                  <i class="fas fa-check-circle"></i> Partner universities
+                  across East Africa
+                </div>
+              </div>
+              <a
+                href="https://wa.me/254745656143?text=Hello%20Mentor%20Sydney,%20I%20am%20interested%20in%20the%20scholarship%20opportunity."
+                class="opp-btn opp-btn-schol"
+                target="_blank"
+                ><i class="fab fa-whatsapp"></i> Enquire via WhatsApp</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ REFERRAL ══ -->
+    <section class="ref-section" id="referral">
+      <div class="ref-grid">
+        <div class="reveal">
+          <div class="eyebrow">Viral Earning</div>
+          <h2 class="sec-title">Refer Friends,<br />Earn Forever</h2>
+          <p class="sec-sub">
+            Every friend you invite earns you KSH 300 instantly. The real power?
+            You keep earning as they earn — building true passive income with
+            zero ongoing effort.
+          </p>
+          <div class="ref-tiers">
+            <div class="ref-tier">
+              <div class="t-badge t-bronze">
+                <i class="fas fa-user-plus"></i>
+              </div>
+              <div class="t-info">
+                <div class="t-name">Direct Referral Bonus</div>
+                <div class="t-desc">
+                  Paid instantly when your friend registers &amp; activates
+                </div>
+              </div>
+              <span class="t-earn">KSH 300</span>
+            </div>
+            <div class="ref-tier">
+              <div class="t-badge t-silver"><i class="fas fa-users"></i></div>
+              <div class="t-info">
+                <div class="t-name">Team Activity Commission</div>
+                <div class="t-desc">
+                  Earn % whenever your referrals complete tasks
+                </div>
+              </div>
+              <span class="t-earn">KSH 100</span>
+            </div>
+            <div class="ref-tier">
+              <div class="t-badge t-gold"><i class="fas fa-star"></i></div>
+              <div class="t-info">
+                <div class="t-name">Level 2 Commissions</div>
+                <div class="t-desc">
+                  Earn when your referrals invite their own network
+                </div>
+              </div>
+              <span class="t-earn">KSH 50</span>
+            </div>
+            <div class="ref-tier">
+              <div class="t-badge t-gem"><i class="fas fa-gem"></i></div>
+              <div class="t-info">
+                <div class="t-name">Power Referrer Bonus</div>
+                <div class="t-desc">
+                  Refer 10+ people in one week — special reward
+                </div>
+              </div>
+              <span class="t-earn">KSH 2,000</span>
+            </div>
+          </div>
+          <a
+            href="https://mulastar.com/register.php?ref=Sydney"
+            class="btn-cta"
+            target="_blank"
+            ><i class="fas fa-share-nodes"></i> Get My Referral Link</a
+          >
+        </div>
+        <div class="ref-visual reveal">
+          <div class="rv-hd">Your Earning Network</div>
+          <div class="rv-tree">
+            <div class="rv-you">👤 You</div>
+            <div class="rv-vline"></div>
+            <div class="rv-kids">
+              <div class="rv-kid">
+                <div class="rv-kid-nm">Friend 1</div>
+                <div class="rv-kid-earn">+KSH 300</div>
+              </div>
+              <div class="rv-kid">
+                <div class="rv-kid-nm">Friend 2</div>
+                <div class="rv-kid-earn">+KSH 300</div>
+              </div>
+              <div class="rv-kid">
+                <div class="rv-kid-nm">Friend 3</div>
+                <div class="rv-kid-earn">+KSH 300</div>
+              </div>
+            </div>
+          </div>
+          <div class="rv-box">
+            <div class="rv-box-l">
+              3 referrals + their ongoing activity earns you
+            </div>
+            <div class="rv-box-n">KSH 900+ / week</div>
+          </div>
+          <div class="rv-tip">
+            <i class="fas fa-infinity"></i> No limit on referrals. Some members
+            earn KSH 15,000+/month from referrals alone.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ HOW IT WORKS ══ -->
+    <section class="how-section" id="how">
+      <div class="inner">
         <div style="text-align: center">
           <div class="eyebrow" style="justify-content: center">
             Simple Process
           </div>
-          <h2 class="section-title">Start Earning in 3 Steps</h2>
-          <p class="section-sub" style="margin: 0 auto; text-align: center">
-            From registration to your first M-Pesa withdrawal in under 10
+          <h2 class="sec-title">Start Earning in 4 Steps</h2>
+          <p class="sec-sub" style="margin: 0 auto; text-align: center">
+            From registration to your first M-Pesa withdrawal — under 15
             minutes.
           </p>
         </div>
-
         <div class="how-grid">
-          <div class="how-connector"></div>
-
+          <div class="how-line"></div>
           <div class="how-step reveal">
-            <div class="step-circle">1</div>
-            <h3>Register Your Account</h3>
+            <div class="how-num">1</div>
+            <h3>Register Free</h3>
             <p>
-              Visit the registration page, fill in your phone number, email, and
-              create a username. Simple and takes under 2 minutes.
+              Visit the registration page, enter your phone number and email,
+              choose a username. Takes 2 minutes.
             </p>
           </div>
-
           <div class="how-step reveal">
-            <div class="step-circle">2</div>
+            <div class="how-num">2</div>
             <h3>Activate with KSH 500</h3>
             <p>
-              Pay your one-time KSH 500 activation via M-Pesa. Your KSH 300
-              bonus is credited instantly. Account unlocked!
+              Pay your one-time activation via M-Pesa. Your KSH 300 welcome
+              bonus is credited instantly.
             </p>
           </div>
-
           <div class="how-step reveal">
-            <div class="step-circle">3</div>
-            <h3>Earn & Withdraw Daily</h3>
+            <div class="how-num">3</div>
+            <h3>Complete Tasks</h3>
             <p>
-              Start chatting, watching videos, completing surveys, or clicking
-              ads. Withdraw your earnings directly to M-Pesa anytime.
+              Choose your streams — chat, videos, AI tasks, surveys, or ad
+              clicking. Every task pays.
+            </p>
+          </div>
+          <div class="how-step reveal">
+            <div class="how-num">4</div>
+            <h3>Withdraw to M-Pesa</h3>
+            <p>
+              Hit KSH 600 minimum and request your withdrawal. M-Pesa arrives
+              within minutes, every time.
             </p>
           </div>
         </div>
-
-        <div style="text-align: center; margin-top: 48px">
+        <div style="text-align: center; margin-top: 44px">
           <a
             href="https://mulastar.com/register.php?ref=Sydney"
-            class="btn-primary"
+            class="btn-cta"
             target="_blank"
-            style="font-size: 1.05rem; padding: 17px 40px"
+            style="font-size: 0.98rem; padding: 16px 36px"
+            ><i class="fas fa-rocket"></i> Register Now — Get KSH 300 Free</a
           >
-            <i class="fas fa-rocket"></i> Register Now
-          </a>
         </div>
       </div>
     </section>
 
-    <!-- ── TESTIMONIALS ── -->
-    <section class="section" id="testimonials">
-      <div class="section-inner">
+    <!-- ══ LIVE ACTIVITY FEED ══ -->
+    <section class="activity-section reveal">
+      <div class="act-inner">
+        <div class="eyebrow" style="justify-content: center">Live</div>
+        <h2 class="sec-title">What Members Are Earning Right Now</h2>
+        <p style="font-size: 0.85rem; color: var(--ink-40); margin-bottom: 0">
+          Real-time activity from your future teammates
+        </p>
+        <div class="act-feed" id="actFeed">
+          <div class="act-item">
+            <div class="act-av">JM</div>
+            <div class="act-txt">
+              <strong>James M. (Nairobi)</strong> completed 3 AI labeling tasks
+            </div>
+            <span class="act-amt">+KSH 450</span
+            ><span class="act-time">2 min ago</span>
+          </div>
+          <div class="act-item">
+            <div class="act-av">AW</div>
+            <div class="act-txt">
+              <strong>Achieng W. (Kisumu)</strong> referred a new member
+            </div>
+            <span class="act-amt">+KSH 300</span
+            ><span class="act-time">5 min ago</span>
+          </div>
+          <div class="act-item">
+            <div class="act-av">PK</div>
+            <div class="act-txt">
+              <strong>Peter K. (Mombasa)</strong> withdrew earnings to M-Pesa
+            </div>
+            <span class="act-amt">KSH 2,400</span
+            ><span class="act-time">8 min ago</span>
+          </div>
+          <div class="act-item">
+            <div class="act-av">MJ</div>
+            <div class="act-txt">
+              <strong>Mercy J. (Nakuru)</strong> completed 5 video-watching
+              tasks
+            </div>
+            <span class="act-amt">+KSH 250</span
+            ><span class="act-time">11 min ago</span>
+          </div>
+          <div class="act-item">
+            <div class="act-av">BO</div>
+            <div class="act-txt">
+              <strong>Brian O. (Eldoret)</strong> completed a survey batch
+            </div>
+            <span class="act-amt">+KSH 100</span
+            ><span class="act-time">15 min ago</span>
+          </div>
+          <div class="act-item">
+            <div class="act-av">SN</div>
+            <div class="act-txt">
+              <strong>Susan N. (Nairobi)</strong> finished audio transcription
+            </div>
+            <span class="act-amt">+KSH 200</span
+            ><span class="act-time">19 min ago</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ TESTIMONIALS ══ -->
+    <section class="testi-section" id="reviews">
+      <div class="inner">
         <div class="eyebrow">Real People, Real Earnings</div>
-        <h2 class="section-title">What Members Say</h2>
-
-        <div class="tgrid">
-          <div class="tcard reveal">
-            <div class="tcard-stars">★★★★★</div>
-            <div class="tcard-earned">Earned KSH 12,400</div>
-            <p class="tcard-quote">
-              TaskChat changed my life. I was skeptical at first, but after my
-              first M-Pesa withdrawal I was hooked. The mentorship made
-              everything clear from day one.
+        <h2 class="sec-title">What Members Say</h2>
+        <p class="sec-sub">
+          Over 10,000 members. Hundreds of verified M-Pesa withdrawals every
+          week.
+        </p>
+        <div class="t-grid">
+          <div class="t-card reveal">
+            <div class="t-stars">★★★★★</div>
+            <div class="t-earned">Earned KSH 12,400</div>
+            <div class="t-mock-payment">
+              <span class="t-mock-icon">📱</span>
+              <div class="t-mock-info">
+                <strong>M-Pesa Received — KSH 3,200</strong>From TaskChat —
+                confirmed
+              </div>
+            </div>
+            <p class="t-quote">
+              I was skeptical — my cousin told me and I thought it was another
+              scam. After my first M-Pesa withdrawal I was completely converted.
+              The AI tasks pay the best!
             </p>
-            <div class="tcard-author">
-              <div class="author-av">RK</div>
+            <div class="t-author">
+              <div class="t-av">RK</div>
               <div>
-                <div class="author-name">Robert K.</div>
-                <div class="author-loc">📍 Nairobi · 1 month</div>
+                <div class="t-name">Robert K.</div>
+                <div class="t-loc">📍 Nairobi · 1 month member</div>
               </div>
             </div>
           </div>
-
-          <div class="tcard reveal">
-            <div class="tcard-stars">★★★★★</div>
-            <div class="tcard-earned">Earned KSH 28,700</div>
-            <p class="tcard-quote">
-              Easy withdrawals and multiple income streams. I spend 2 hours
-              daily watching videos and doing surveys. The referral commissions
-              are now my biggest earner.
+          <div class="t-card reveal">
+            <div class="t-stars">★★★★★</div>
+            <div class="t-earned">Earned KSH 28,700</div>
+            <div class="t-mock-payment">
+              <span class="t-mock-icon">📱</span>
+              <div class="t-mock-info">
+                <strong>M-Pesa Received — KSH 7,800</strong>From TaskChat —
+                confirmed
+              </div>
+            </div>
+            <p class="t-quote">
+              I spend 2 hours daily on surveys, videos, and referring friends.
+              My referral commissions are now bigger than my salary. This
+              platform is the real deal.
             </p>
-            <div class="tcard-author">
-              <div class="author-av">AO</div>
+            <div class="t-author">
+              <div class="t-av">AO</div>
               <div>
-                <div class="author-name">Achieng O.</div>
-                <div class="author-loc">📍 Kisumu · 3 months</div>
+                <div class="t-name">Achieng O.</div>
+                <div class="t-loc">📍 Kisumu · 3 months member</div>
               </div>
             </div>
           </div>
-
-          <div class="tcard reveal">
-            <div class="tcard-stars">★★★★★</div>
-            <div class="tcard-earned">Earned KSH 19,200</div>
-            <p class="tcard-quote">
-              Started with just KSH 500, now earning daily. The platform is
-              user-friendly and the support team responds in minutes. Highly
-              recommended!
+          <div class="t-card reveal">
+            <div class="t-stars">★★★★★</div>
+            <div class="t-earned">Earned KSH 19,200</div>
+            <div class="t-mock-payment">
+              <span class="t-mock-icon">📱</span>
+              <div class="t-mock-info">
+                <strong>M-Pesa Received — KSH 4,500</strong>From TaskChat —
+                confirmed
+              </div>
+            </div>
+            <p class="t-quote">
+              Started with KSH 500, now earning daily without fail. The support
+              team responds in minutes on WhatsApp. I recommended it to my
+              entire office team.
             </p>
-            <div class="tcard-author">
-              <div class="author-av">MM</div>
+            <div class="t-author">
+              <div class="t-av">MM</div>
               <div>
-                <div class="author-name">Milly M.</div>
-                <div class="author-loc">📍 Mombasa · 2 months</div>
+                <div class="t-name">Milly M.</div>
+                <div class="t-loc">📍 Mombasa · 2 months member</div>
               </div>
             </div>
           </div>
         </div>
+        <div class="testi-cta">
+          <p>Join them — your first withdrawal could be in 24 hours.</p>
+          <a
+            href="https://mulastar.com/register.php?ref=Sydney"
+            class="btn-cta"
+            target="_blank"
+            ><i class="fas fa-arrow-right"></i> Register &amp; Claim KSH 300
+            Bonus</a
+          >
+        </div>
       </div>
     </section>
 
-    <!-- ── FAQ ── -->
-    <section class="section" id="faq" style="background: var(--bg3)">
-      <div class="section-inner">
+    <!-- ══ TRUST ══ -->
+    <section class="trust-section">
+      <div class="trust-hd">
+        <div class="eyebrow" style="justify-content: center">
+          Why TaskChat Is Safe
+        </div>
+        <h2 class="sec-title">Built on Transparency</h2>
+        <p class="sec-sub" style="margin: 0 auto; text-align: center">
+          We know you've seen scams. Here's why TaskChat is different —
+          verifiable facts, not empty promises.
+        </p>
+      </div>
+      <div class="trust-grid">
+        <div class="trust-card reveal">
+          <div class="trust-ic ti-gold">
+            <i class="fas fa-building-columns"></i>
+          </div>
+          <h3>Officially Registered</h3>
+          <p>
+            Registered business in Kenya (BN-2RCLQZTJ) and 12+ African
+            countries. Verify our number independently at the Kenya Business
+            Registration Service.
+          </p>
+        </div>
+        <div class="trust-card reveal">
+          <div class="trust-ic ti-green">
+            <i class="fas fa-money-bill-transfer"></i>
+          </div>
+          <h3>Verified Withdrawals</h3>
+          <p>
+            Thousands of confirmed M-Pesa withdrawals weekly. We never hold your
+            money — KSH 600 minimum processes instantly, 24/7, any day of the
+            week.
+          </p>
+        </div>
+        <div class="trust-card reveal">
+          <div class="trust-ic ti-sky"><i class="fas fa-headset"></i></div>
+          <h3>24/7 Human Support</h3>
+          <p>
+            Mentor Sydney replies within minutes on WhatsApp. Real human
+            support, not bots — onboarding, troubleshooting, and withdrawal help
+            always available.
+          </p>
+        </div>
+      </div>
+      <div class="reg-banner reveal">
+        <i class="fas fa-certificate"></i>
+        <div class="reg-banner-info">
+          <strong
+            >Official Business Registration: BN-2RCLQZTJ — Republic of
+            Kenya</strong
+          ><span
+            >Verifiable at the Kenya Business Registration Service portal.
+            TaskChat is a legitimate, tax-compliant business operating across
+            12+ African countries.</span
+          >
+        </div>
+      </div>
+      <div class="antiscam-warn reveal">
+        <i class="fas fa-shield-halved"></i>TaskChat will never ask for your
+        M-Pesa PIN, passwords, or personal bank details. Withdrawals always flow
+        FROM TaskChat TO your number. If anyone claiming to be TaskChat asks you
+        to send money outside of the KSH 500 one-time registration, report them
+        immediately to Mentor Sydney on WhatsApp.
+      </div>
+    </section>
+
+    <!-- ══ FAQ ══ -->
+    <section class="faq-section" id="faq">
+      <div class="inner">
         <div style="text-align: center">
           <div class="eyebrow" style="justify-content: center">
-            Got Questions?
+            Common Questions
           </div>
-          <h2 class="section-title">Frequently Asked</h2>
+          <h2 class="sec-title">Frequently Asked</h2>
+          <p class="sec-sub" style="margin: 0 auto; text-align: center">
+            Transparent, honest answers to every concern.
+          </p>
         </div>
-
         <div class="faq-wrap">
           <div class="faq-item open">
             <button class="faq-q">
-              How do I withdraw my earnings?<span class="faq-icon-wrap"
+              Is TaskChat a scam?<span class="faq-ic"
                 ><i class="fas fa-plus"></i
               ></span>
             </button>
             <div class="faq-a">
               <p>
-                Withdrawals are processed instantly via M-Pesa, Airtel Money, or
-                T-Kash once you reach the minimum threshold of KSH 600. Most
-                withdrawals complete within minutes. No bank account needed —
-                just your mobile money number.
+                No. TaskChat is an officially registered business (BN-2RCLQZTJ)
+                operating in Kenya and 12+ African countries. Thousands of
+                members receive real M-Pesa withdrawals daily. Unlike pyramid
+                schemes, you earn from completing actual tasks — watching
+                videos, surveys, AI labeling, chatting — not purely from
+                recruiting. Referrals are optional, not required to earn.
               </p>
             </div>
           </div>
-
           <div class="faq-item">
             <button class="faq-q">
-              Is TaskChat legit and safe?<span class="faq-icon-wrap"
+              How do I withdraw my earnings?<span class="faq-ic"
                 ><i class="fas fa-plus"></i
               ></span>
             </button>
             <div class="faq-a">
               <p>
-                Yes! TaskChat is officially registered in 12+ African countries
-                including Kenya (BN-2RCLQZTJ), Tanzania, Uganda, Ghana, and
-                more. We use secure local payment systems and maintain full
-                transparency with all members. Thousands of members have
-                received real M-Pesa withdrawals.
+                Withdrawals process instantly via M-Pesa, Airtel Money, or
+                T-Kash once you reach the KSH 600 minimum threshold. Most
+                transactions complete within minutes. No bank account required —
+                just your mobile money number. You can withdraw any day, any
+                time.
               </p>
             </div>
           </div>
-
           <div class="faq-item">
             <button class="faq-q">
-              Do I need experience to start?<span class="faq-icon-wrap"
+              Do I need experience or special skills?<span class="faq-ic"
                 ><i class="fas fa-plus"></i
               ></span>
             </button>
             <div class="faq-a">
               <p>
                 Zero experience needed. Mentor Sydney provides step-by-step
-                onboarding, video tutorials, and 24/7 WhatsApp support. If you
-                can browse social media, you can earn on TaskChat. Our beginner
-                methods like video watching and ad clicking require no skills at
-                all.
+                onboarding, video tutorials, and 24/7 WhatsApp support.
+                Beginners start with video watching and ad clicking — no skills
+                required at all. AI tasks include clear guided instructions. If
+                you can use a smartphone, you can earn on TaskChat.
               </p>
             </div>
           </div>
-
           <div class="faq-item">
             <button class="faq-q">
-              How much can I earn per day?<span class="faq-icon-wrap"
+              How much can I realistically earn per day?<span class="faq-ic"
                 ><i class="fas fa-plus"></i
               ></span>
             </button>
             <div class="faq-a">
               <p>
-                Earnings depend on how many methods you use and how actively you
-                work. Casual members earn KSH 300–1,000 daily from videos and
-                surveys. Active members who also refer friends can earn KSH
-                2,000–5,000+ per day. The more streams you use, the more you
-                earn.
+                Casual members (1 hour/day) typically earn KSH 300–800 from
+                videos and surveys. Active members using multiple streams earn
+                KSH 1,000–3,000 daily. Power users who also refer friends
+                consistently earn KSH 3,000–8,000+ per day. Your earnings depend
+                entirely on your effort and methods used.
               </p>
             </div>
           </div>
-
           <div class="faq-item">
             <button class="faq-q">
-              What does the KSH 500 registration fee cover?<span
-                class="faq-icon-wrap"
+              What does the KSH 500 registration fee cover?<span class="faq-ic"
                 ><i class="fas fa-plus"></i
               ></span>
             </button>
             <div class="faq-a">
               <p>
                 The KSH 500 is a one-time account activation fee that unlocks
-                all earning features. You immediately receive KSH 300 as a
-                welcome bonus, effectively making your net cost only KSH 200.
-                This covers platform access, mentorship, and lifetime support.
+                all earning features — tasks, AI work, chat assignments, and the
+                referral system. You immediately receive KSH 300 as a welcome
+                bonus, making your effective net cost only KSH 200. There are no
+                monthly fees or hidden charges. Ever.
               </p>
             </div>
           </div>
-
           <div class="faq-item">
             <button class="faq-q">
-              Is referral mandatory to earn?<span class="faq-icon-wrap"
+              Is referral the only way to earn?<span class="faq-ic"
                 ><i class="fas fa-plus"></i
               ></span>
             </button>
             <div class="faq-a">
               <p>
-                Not at all! Referrals are completely optional. You can earn
-                consistently through videos, surveys, ads clicking, and chat —
-                all without ever inviting a single person. Referrals are an
-                optional bonus stream, not a requirement.
+                Absolutely not. Referrals are 100% optional. You can earn
+                consistently through videos, surveys, ad clicking, AI data
+                tasks, and chatting — without inviting a single person. Hundreds
+                of members earn entirely from task-based income with zero
+                referrals.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q">
+              What are the Loan and Scholarship sections about?<span
+                class="faq-ic"
+                ><i class="fas fa-plus"></i
+              ></span>
+            </button>
+            <div class="faq-a">
+              <p>
+                These sections feature opportunities from vetted advertising
+                partners — third-party loan providers and education platforms.
+                TaskChat does not directly offer loans or scholarships. We
+                connect members with legitimate external providers and receive
+                an advertising fee. Always read partner terms carefully before
+                applying. Availability may change.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q">
+              What AI tasks are available and how hard are they?<span
+                class="faq-ic"
+                ><i class="fas fa-plus"></i
+              ></span>
+            </button>
+            <div class="faq-a">
+              <p>
+                AI tasks include image labeling, audio transcription, response
+                rating, and translation. Each task type comes with clear
+                instructions and examples — no AI knowledge required. Tasks are
+                designed for regular people, not engineers. Difficulty increases
+                at higher levels, but so does the pay. Most beginners complete
+                their first batch within 20 minutes.
               </p>
             </div>
           </div>
@@ -2373,211 +3433,536 @@
       </div>
     </section>
 
-    <!-- ── CONTACT ── -->
+    <!-- ══ CONTACT ══ -->
     <section class="contact-section" id="contact">
       <div class="contact-inner">
-        <div class="eyebrow">Support</div>
-        <h2 class="section-title">We're Here for You</h2>
-        <p class="section-sub">
-          Mentor Sydney and our support team are available 24/7
+        <div class="eyebrow">Always Available</div>
+        <h2 class="sec-title">We're Here for You</h2>
+        <p class="sec-sub">
+          Mentor Sydney and our support team respond within minutes
         </p>
-
         <div class="contact-grid">
           <a
             href="https://wa.me/254745656143?text=Hello%20Mentor%20Sydney,%20guide%20me%20through."
-            class="contact-card"
+            class="cc"
             target="_blank"
-          >
-            <div
-              class="contact-icon"
-              style="background: rgba(37, 211, 102, 0.15)"
-            >
+            ><div class="cc-ic" style="background: rgba(37, 211, 102, 0.15)">
               <i class="fab fa-whatsapp" style="color: #25d366"></i>
             </div>
             <h3>WhatsApp Chat</h3>
-            <p>Direct support from Mentor Sydney. Fastest response.</p>
-          </a>
-
+            <p>
+              Fastest response. Direct line to Mentor Sydney — onboarding,
+              withdrawals, and all support.
+            </p></a
+          >
           <a
             href="https://chat.whatsapp.com/IiD1IYG2LFpDBwxpptb3n1"
-            class="contact-card"
+            class="cc"
             target="_blank"
-          >
-            <div
-              class="contact-icon"
-              style="background: rgba(245, 184, 0, 0.15)"
-            >
-              <i class="fas fa-users" style="color: var(--amber)"></i>
+            ><div class="cc-ic" style="background: rgba(232, 160, 32, 0.15)">
+              <i class="fas fa-users" style="color: var(--gold)"></i>
             </div>
             <h3>Join Community</h3>
-            <p>Connect with 10,000+ earners in our WhatsApp group.</p>
-          </a>
-
-          <a href="tel:+254745656143" class="contact-card">
-            <div
-              class="contact-icon"
-              style="background: rgba(77, 141, 255, 0.15)"
-            >
-              <i class="fas fa-phone" style="color: #4d8dff"></i>
+            <p>
+              Connect with 10,000+ earners. Tips, payment proofs, and motivation
+              every day.
+            </p></a
+          >
+          <a href="tel:+254745656143" class="cc"
+            ><div class="cc-ic" style="background: rgba(25, 103, 243, 0.15)">
+              <i class="fas fa-phone" style="color: var(--sky)"></i>
             </div>
             <h3>Call Support</h3>
-            <p>0745 656 143 — Available during business hours.</p>
-          </a>
-
-          <a href="mailto:mentorsydney012@gmail.com" class="contact-card">
-            <div
-              class="contact-icon"
-              style="background: rgba(168, 85, 247, 0.15)"
-            >
-              <i class="fas fa-envelope" style="color: #a855f7"></i>
+            <p>
+              0745 656 143 · Available during business hours Monday–Saturday.
+            </p></a
+          >
+          <a href="mailto:mentorsydney012@gmail.com" class="cc"
+            ><div class="cc-ic" style="background: rgba(124, 58, 237, 0.15)">
+              <i class="fas fa-envelope" style="color: var(--plum)"></i>
             </div>
             <h3>Email Us</h3>
-            <p>mentorsydney012@gmail.com</p>
-          </a>
+            <p>mentorsydney012@gmail.com · Response within 24 hours.</p></a
+          >
         </div>
       </div>
     </section>
 
-    <!-- ── FINAL CTA ── -->
+    <!-- ══ FINAL CTA ══ -->
     <section class="section final-cta">
-      <div class="final-cta-inner">
+      <div class="fci">
         <div class="eyebrow">Ready to Start?</div>
-        <h2>Your Financial Freedom<br />Starts with KSH 500</h2>
+        <h2>Your Daily Income<br />Starts with KSH 500</h2>
         <p>
-          Join thousands of Kenyans already earning daily with TaskChat.
-          Register today and claim your KSH 300 welcome bonus instantly.
+          Join 10,000+ Kenyans already earning daily. Register today, claim your
+          KSH 300 welcome bonus, and make your first withdrawal within 24 hours.
         </p>
-
         <div class="cta-perks">
-          <div class="perk-pill">
+          <div class="perk">
             <i class="fas fa-shield-halved"></i> Officially Registered
           </div>
-          <div class="perk-pill">
-            <i class="fas fa-bolt"></i> Instant Withdrawals
+          <div class="perk">
+            <i class="fas fa-bolt"></i> Instant M-Pesa Withdrawals
           </div>
-          <div class="perk-pill"><i class="fas fa-gift"></i> KSH 300 Bonus</div>
+          <div class="perk"><i class="fas fa-gift"></i> KSH 300 Free Bonus</div>
+          <div class="perk"><i class="fas fa-robot"></i> AI Tasks Included</div>
         </div>
-
-        <div class="final-cta-btns">
+        <div class="fc-btns">
           <a
             href="https://mulastar.com/register.php?ref=Sydney"
-            class="btn-cta-main"
+            class="btn-main-big"
             target="_blank"
+            ><i class="fas fa-rocket"></i> Register Now — KSH 500 Activation</a
           >
-            <i class="fas fa-rocket"></i> Register Now — KSH 500
-          </a>
           <a
             href="https://wa.me/254745656143?text=Hello%20Mentor%20Sydney,%20guide%20me%20through."
-            class="btn-cta-ghost"
+            class="btn-soft-ghost"
             target="_blank"
+            ><i class="fab fa-whatsapp"></i> Talk to Mentor Sydney First</a
           >
-            <i class="fab fa-whatsapp"></i> Talk to Mentor First
-          </a>
         </div>
       </div>
     </section>
 
-    <!-- ── FOOTER ── -->
+    <!-- ══ FOOTER ══ -->
     <footer>
-      <a href="#" class="footer-brand">
-        <div
-          class="logo-icon"
-          style="width: 34px; height: 34px; font-size: 0.85rem"
-        >
-          TC
-        </div>
-        <div class="logo-text" style="font-size: 1.1rem; color: white">
+      <div class="f-brand">
+        <div class="nav-logo-mark"></div>
+        <div class="nav-logo-text" style="color: var(--white)">
           TASK<span>CHAT</span>
         </div>
-      </a>
-      <span class="footer-copy"
-        >© 2026 TaskChat. Empowering African earners.</span
+      </div>
+      <span class="f-copy"
+        >© 2026 TaskChat254. Empowering African earners daily.</span
       >
-      <div class="footer-links">
-        <a href="#earn">Earn</a>
-        <a href="#how">Get Started</a>
-        <a href="#faq">FAQ</a>
-        <a href="#contact">Support</a>
+      <div class="f-links">
+        <a href="#earn">Earn</a><a href="#ai">AI Tasks</a
+        ><a href="#opps">Loans &amp; Scholarships</a
+        ><a href="#referral">Refer</a><a href="#faq">FAQ</a
+        ><a href="#contact">Support</a>
       </div>
     </footer>
 
     <script>
-      // ── NAV SCROLL ──
-      const navbar = document.getElementById("navbar");
-      window.addEventListener("scroll", () => {
-        navbar.classList.toggle("scrolled", window.scrollY > 40);
-      });
+      /* ══════════════════════════════════
+         1. HERO LIVE COUNTER — animated flip
+      ══════════════════════════════════ */
+      (function () {
+        let currentCount = 347;
+        const BASE = 320;
+        const PEAK = 410;
+        let direction = 1;
 
-      // ── HAMBURGER with improved mobile menu ──
-      const hamburger = document.getElementById("hamburger");
+        const numEl = document.getElementById("liveCounterNum");
+
+        function flipTo(newVal) {
+          numEl.classList.add("flip-out");
+          setTimeout(() => {
+            numEl.textContent = newVal;
+            numEl.classList.remove("flip-out");
+            numEl.classList.add("flip-in");
+            void numEl.offsetWidth;
+            numEl.classList.remove("flip-in");
+            numEl.classList.add("flip-settle");
+            setTimeout(() => numEl.classList.remove("flip-settle"), 400);
+          }, 300);
+        }
+
+        function updateCounter() {
+          const step =
+            (Math.random() < 0.7 ? 1 : Math.floor(Math.random() * 3) + 2) *
+            direction;
+          let next = currentCount + step;
+
+          if (next >= PEAK) {
+            direction = -1;
+            next = PEAK;
+          }
+          if (next <= BASE) {
+            direction = 1;
+            next = BASE;
+          }
+          if (Math.random() < 0.08) {
+            next = Math.min(
+              next + Math.floor(Math.random() * 5) + 3,
+              PEAK + 15,
+            );
+            direction = -1;
+          }
+          if (Math.random() < 0.06) {
+            next = Math.max(
+              next - Math.floor(Math.random() * 4) + 2,
+              BASE - 10,
+            );
+            direction = 1;
+          }
+
+          if (next !== currentCount) {
+            currentCount = next;
+            flipTo(currentCount);
+          }
+          setTimeout(updateCounter, 3000 + Math.random() * 6000);
+        }
+
+        setTimeout(updateCounter, 2500);
+      })();
+
+      /* ══════════════════════════════════
+         2. TICKER — FIXED: events array was undefined; now properly defined
+      ══════════════════════════════════ */
+      (function () {
+        const names = [
+          ["Kevin R.", "Nairobi"],
+          ["Mary A.", "Mombasa"],
+          ["Brian T.", "Kisumu"],
+          ["Faith N.", "Nakuru"],
+          ["Dennis O.", "Eldoret"],
+          ["Lucy W.", "Thika"],
+          ["Samuel K.", "Nyeri"],
+          ["Esther M.", "Kericho"],
+          ["Daniel P.", "Kitale"],
+          ["Aisha S.", "Garissa"],
+          ["John M.", "Nairobi"],
+          ["Alice K.", "Kisumu"],
+          ["Mark O.", "Mombasa"],
+          ["Grace L.", "Eldoret"],
+          ["Victor N.", "Nakuru"],
+          ["Purity C.", "Nairobi"],
+          ["Mike O.", "Kakamega"],
+          ["Lilian K.", "Thika"],
+          ["Geoffrey M.", "Kisii"],
+          ["Agnes W.", "Nanyuki"],
+        ];
+
+        // FIXED: events was referenced but never defined in the original code
+        const events = [
+          {
+            type: "earn",
+            verb: "earned from tasks",
+            amtFn: () => `KSH ${(Math.floor(Math.random() * 18) + 3) * 50}`,
+          },
+          {
+            type: "earn",
+            verb: "completed AI labeling",
+            amtFn: () =>
+              `KSH ${[150, 200, 300][Math.floor(Math.random() * 3)]}`,
+          },
+          {
+            type: "earn",
+            verb: "finished survey batch",
+            amtFn: () => `KSH ${[50, 75, 100][Math.floor(Math.random() * 3)]}`,
+          },
+          {
+            type: "earn",
+            verb: "watched sponsored videos",
+            amtFn: () => `KSH ${(Math.floor(Math.random() * 6) + 2) * 50}`,
+          },
+          {
+            type: "earn",
+            verb: "completed audio transcription",
+            amtFn: () => "KSH 200",
+          },
+          {
+            type: "earn",
+            verb: "completed response rating",
+            amtFn: () => "KSH 300",
+          },
+          {
+            type: "withdraw",
+            verb: "withdrew to M-Pesa",
+            amtFn: () => `KSH ${(Math.floor(Math.random() * 20) + 6) * 100}`,
+          },
+          {
+            type: "withdraw",
+            verb: "cashed out earnings",
+            amtFn: () => `KSH ${(Math.floor(Math.random() * 30) + 8) * 100}`,
+          },
+          {
+            type: "referral",
+            verb: "referred a new member",
+            amtFn: () => "KSH 300",
+          },
+          {
+            type: "referral",
+            verb: "earned referral bonus",
+            amtFn: () => "KSH 300",
+          },
+        ];
+
+        function buildItem(n, ev) {
+          const amt = ev.amtFn();
+          return `<span class="ticker-item type-${ev.type}"><span class="ti-dot"></span><span class="ti-name">${n[0]} (${n[1]})</span>&nbsp;${ev.verb}&nbsp;<span class="ti-amount">${amt}</span></span><span class="ticker-sep">◆</span>`;
+        }
+
+        function buildTrack() {
+          const shuffledNames = [...names].sort(() => Math.random() - 0.5);
+          const shuffledEvs = [...events, ...events]
+            .sort(() => Math.random() - 0.5)
+            .slice(0, 20);
+          let html = "";
+          for (let i = 0; i < 20; i++) {
+            html += buildItem(
+              shuffledNames[i % shuffledNames.length],
+              shuffledEvs[i],
+            );
+          }
+          return html;
+        }
+
+        const track = document.getElementById("tickerTrack");
+
+        function initTicker() {
+          const half = buildTrack();
+          track.innerHTML = half + half;
+
+          // Use rAF to measure after paint so scrollWidth is accurate
+          requestAnimationFrame(() => {
+            requestAnimationFrame(() => {
+              const halfWidth = track.scrollWidth / 2;
+              if (halfWidth <= 0) return;
+              const duration = halfWidth / 80; // 80px per second
+              const styleEl = document.createElement("style");
+              styleEl.id = "ticker-keyframes";
+              styleEl.textContent = `@keyframes tc-ticker{from{transform:translateX(0)}to{transform:translateX(-${halfWidth}px)}}`;
+              document.head.appendChild(styleEl);
+              track.style.animation = `tc-ticker ${duration}s linear infinite`;
+            });
+          });
+        }
+
+        initTicker();
+
+        // Refresh every 90s — swap content without visual glitch
+        setInterval(() => {
+          const half = buildTrack();
+          track.style.animationPlayState = "paused";
+          track.innerHTML = half + half;
+          requestAnimationFrame(() => {
+            track.style.animationPlayState = "running";
+          });
+        }, 90000);
+      })();
+
+      /* ══════════════════════════════════
+         3. NAV SCROLL
+      ══════════════════════════════════ */
+      const nav = document.getElementById("nav");
+      window.addEventListener("scroll", () =>
+        nav.classList.toggle("scrolled", window.scrollY > 50),
+      );
+
+      /* ══ Hamburger ══ */
+      const burger = document.getElementById("burger");
       const navLinks = document.getElementById("navLinks");
-      hamburger.addEventListener("click", () => {
-        hamburger.classList.toggle("active");
+      burger.addEventListener("click", () => {
+        burger.classList.toggle("open");
         navLinks.classList.toggle("open");
       });
-      navLinks.querySelectorAll("a").forEach((link) => {
-        link.addEventListener("click", () => {
-          hamburger.classList.remove("active");
+      navLinks.querySelectorAll("a").forEach((a) =>
+        a.addEventListener("click", () => {
+          burger.classList.remove("open");
           navLinks.classList.remove("open");
-        });
-      });
+        }),
+      );
 
-      // ── REVEAL ON SCROLL ──
-      const reveals = document.querySelectorAll(".reveal");
+      /* ══════════════════════════════════
+         4. SCROLL REVEAL
+      ══════════════════════════════════ */
+      const revealEls = document.querySelectorAll(".reveal");
       const revealObserver = new IntersectionObserver(
         (entries) => {
-          entries.forEach((entry, i) => {
-            if (entry.isIntersecting) {
-              setTimeout(() => entry.target.classList.add("visible"), 80);
-              revealObserver.unobserve(entry.target);
+          entries.forEach((e) => {
+            if (e.isIntersecting) {
+              setTimeout(() => e.target.classList.add("in"), 80);
+              revealObserver.unobserve(e.target);
             }
           });
         },
-        { threshold: 0.1, rootMargin: "0px 0px -50px 0px" },
+        { threshold: 0.1, rootMargin: "0px 0px -45px 0px" },
       );
-      reveals.forEach((el) => revealObserver.observe(el));
+      revealEls.forEach((el) => revealObserver.observe(el));
 
-      // ── STAGGER REVEAL ──
+      // Stagger delays for grouped cards
       document
         .querySelectorAll(
-          ".method-card.reveal, .tcard.reveal, .how-step.reveal",
+          ".mc.reveal, .t-card.reveal, .how-step.reveal, .trust-card.reveal",
         )
         .forEach((el, i) => {
           el.style.transitionDelay = `${i * 0.08}s`;
         });
 
-      // ── LIVE COUNTER ──
-      let baseAmt = 4870;
+      /* ══════════════════════════════════
+         5. LIVE DASHBOARD AMOUNT COUNTER
+      ══════════════════════════════════ */
+      let dashBase = 5460;
       setInterval(() => {
-        baseAmt += Math.floor(Math.random() * 25) + 5;
-        const el = document.getElementById("liveAmount");
-        if (el) el.textContent = "KSH " + baseAmt.toLocaleString();
-      }, 4500);
+        dashBase += Math.floor(Math.random() * 28) + 4;
+        const el = document.getElementById("liveAmt");
+        if (el) el.textContent = "KSH " + dashBase.toLocaleString();
+      }, 4200);
 
-      // ── FAQ ──
+      /* ══════════════════════════════════
+         6. AI PROGRESS BARS — animate on scroll into view
+      ══════════════════════════════════ */
+      const aiPanel = document.querySelector(".ai-panel");
+      if (aiPanel) {
+        const progObserver = new IntersectionObserver(
+          (entries) => {
+            if (entries[0].isIntersecting) {
+              document.querySelectorAll(".prog-fill").forEach((bar) => {
+                bar.style.width = "0%";
+                setTimeout(() => {
+                  bar.style.width = bar.getAttribute("data-w") + "%";
+                }, 300);
+              });
+              progObserver.unobserve(aiPanel);
+            }
+          },
+          { threshold: 0.4 },
+        );
+        progObserver.observe(aiPanel);
+      }
+
+      /* ══════════════════════════════════
+         7. FAQ ACCORDION
+      ══════════════════════════════════ */
       document.querySelectorAll(".faq-q").forEach((btn) => {
         btn.addEventListener("click", () => {
           const item = btn.closest(".faq-item");
-          const isOpen = item.classList.contains("open");
+          const wasOpen = item.classList.contains("open");
           document
             .querySelectorAll(".faq-item")
             .forEach((i) => i.classList.remove("open"));
-          if (!isOpen) item.classList.add("open");
+          if (!wasOpen) item.classList.add("open");
         });
       });
 
-      // ── SMOOTH SCROLL ──
-      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-        anchor.addEventListener("click", function (e) {
-          const href = this.getAttribute("href");
-          if (href === "#") return;
-          const target = document.querySelector(href);
+      /* ══════════════════════════════════
+         8. SMOOTH SCROLL for anchor links
+      ══════════════════════════════════ */
+      document.querySelectorAll('a[href^="#"]').forEach((a) => {
+        a.addEventListener("click", (e) => {
+          const hash = a.getAttribute("href");
+          if (hash === "#") return;
+          const target = document.querySelector(hash);
           if (target) {
             e.preventDefault();
             target.scrollIntoView({ behavior: "smooth", block: "start" });
           }
         });
       });
+
+      /* ══════════════════════════════════
+         9. LIVE ACTIVITY FEED
+      ══════════════════════════════════ */
+      const actItems = [
+        {
+          av: "GW",
+          name: "Grace W. (Nairobi)",
+          action: "completed a chat session",
+          amt: "+KSH 300",
+        },
+        {
+          av: "DK",
+          name: "David K. (Kisumu)",
+          action: "withdrew earnings to M-Pesa",
+          amt: "KSH 3,200",
+        },
+        {
+          av: "RA",
+          name: "Rose A. (Mombasa)",
+          action: "finished 4 AI labeling tasks",
+          amt: "+KSH 600",
+        },
+        {
+          av: "JO",
+          name: "James O. (Nakuru)",
+          action: "referred a new member",
+          amt: "+KSH 300",
+        },
+        {
+          av: "FK",
+          name: "Faith K. (Thika)",
+          action: "completed 3 survey tasks",
+          amt: "+KSH 150",
+        },
+        {
+          av: "TM",
+          name: "Tom M. (Eldoret)",
+          action: "finished audio transcription",
+          amt: "+KSH 200",
+        },
+        {
+          av: "CN",
+          name: "Caroline N. (Nyeri)",
+          action: "watched 8 sponsored videos",
+          amt: "+KSH 400",
+        },
+        {
+          av: "BM",
+          name: "Bernard M. (Kisii)",
+          action: "completed response rating batch",
+          amt: "+KSH 300",
+        },
+        {
+          av: "LW",
+          name: "Lilian W. (Nakuru)",
+          action: "completed AI translation task",
+          amt: "+KSH 500",
+        },
+        {
+          av: "SO",
+          name: "Samuel O. (Nairobi)",
+          action: "referred 2 new members today",
+          amt: "+KSH 600",
+        },
+        {
+          av: "NM",
+          name: "Nancy M. (Mombasa)",
+          action: "completed a trivia quiz",
+          amt: "+KSH 75",
+        },
+        {
+          av: "AK",
+          name: "Anthony K. (Nakuru)",
+          action: "cashed out to M-Pesa",
+          amt: "KSH 1,800",
+        },
+      ];
+      let actIdx = 0;
+
+      function addActivityItem() {
+        const feed = document.getElementById("actFeed");
+        if (!feed) return;
+
+        const item = actItems[actIdx % actItems.length];
+        actIdx++;
+
+        const el = document.createElement("div");
+        el.className = "act-item";
+        el.innerHTML = `
+          <div class="act-av">${item.av}</div>
+          <div class="act-txt"><strong>${item.name}</strong> just ${item.action}</div>
+          <span class="act-amt">${item.amt}</span>
+          <span class="act-time">just now</span>
+        `;
+        feed.insertBefore(el, feed.firstChild);
+
+        // Update timestamps for older items
+        Array.from(feed.querySelectorAll(".act-time")).forEach((t, i) => {
+          if (i === 0) return;
+          const mins = i * (Math.floor(Math.random() * 3) + 3);
+          t.textContent =
+            mins < 60 ? `${mins} min ago` : `${Math.floor(mins / 60)}h ago`;
+        });
+
+        // Cap feed length
+        while (feed.children.length > 9) {
+          feed.removeChild(feed.lastChild);
+        }
+      }
+
+      setInterval(addActivityItem, 6500);
     </script>
   </body>
 </html>
